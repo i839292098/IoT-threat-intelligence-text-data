@@ -1,0 +1,6876 @@
+[
+  {
+    "text": "The cyber-espionage malware is dubbed DazzleSply, and it targets macOS devices in watering-hole attacks.",
+    "relation_list": [
+      {
+        "subject": "DazzleSply",
+        "object": "macOS devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "DazzleSply",
+        "object": "watering-hole attacks",
+        "predicate": "use"
+      },
+      {
+        "subject": "watering-hole attacks",
+        "object": "macOS devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DazzleSply",
+        "type": "Malware"
+      },
+      {
+        "text": "watering-hole attacks",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "macOS devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Camera privacy bug found in Firefox Android in 2019 hasn\u2019t been fixed yet",
+    "relation_list": [
+      {
+        "subject": "Firefox Android",
+        "object": "Camera privacy bug",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Firefox Android",
+        "type": "Software"
+      },
+      {
+        "text": "Camera privacy bug",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The most destruction by BrickerBot.1 was caused from targeting two types of flash storage \u2013 MultiMediaCard devices, and Memory Technology Device.",
+    "relation_list": [
+      {
+        "subject": "BrickerBot.1",
+        "object": "MultiMediaCard devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "BrickerBot.1",
+        "object": "Memory Technology Device",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "BrickerBot.1",
+        "type": "Botnet"
+      },
+      {
+        "text": "MultiMediaCard devices",
+        "type": "Device"
+      },
+      {
+        "text": "Memory Technology Device",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Taiwanese vendor QNAP is warning customers to install QTS and QuTS firmware updates to address a critical flaw impacting its NAS devices.",
+    "relation_list": [
+      {
+        "subject": "NAS",
+        "object": "QTS",
+        "predicate": "has"
+      },
+      {
+        "subject": "NAS",
+        "object": "QuTS",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "NAS",
+        "type": "Device"
+      },
+      {
+        "text": "QTS",
+        "type": "Software"
+      },
+      {
+        "text": "QuTS",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "QNAP released QTS and QuTS firmware updates to address a critical vulnerability, tracked as CVE-2022-27596 (CVSS v3 score: 9.8), that affects QNAP NAS devices.",
+    "relation_list": [
+      {
+        "subject": "QNAP NAS",
+        "object": "QTS",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP NAS",
+        "object": "QuTS",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP NAS",
+        "object": "CVE-2022-27596",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QNAP NAS",
+        "type": "Device"
+      },
+      {
+        "text": "QTS",
+        "type": "Software"
+      },
+      {
+        "text": "QuTS",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2022-27596",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "A vulnerability has been reported to affect QNAP devices running QTS 5.0.1 and QuTS hero h5.0.1. QTS 5.0.1.2234 build 20221201 and later.",
+    "relation_list": [
+      {
+        "subject": "QNAP",
+        "object": "QTS",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP",
+        "object": "QuTS",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QNAP",
+        "type": "Device"
+      },
+      {
+        "text": "QTS",
+        "type": "Software"
+      },
+      {
+        "text": "QuTS",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The RedGoBot can perform DDoS attacks on HTTP, ICMP, TCP, UDP, VSE and OpenVPN protocols.",
+    "relation_list": [
+      {
+        "subject": "RedGoBot",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "RedGoBot",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerabilities discovered in the Netcomm routers are a a stack based buffer overflow and an authentication bypass, respectively tracked as CVE-2022-4873 and CVE-2022-4874.",
+    "relation_list": [
+      {
+        "subject": "Netcomm routers",
+        "object": "CVE-2022-4873",
+        "predicate": "has"
+      },
+      {
+        "subject": "Netcomm routers",
+        "object": "CVE-2022-4874",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Netcomm routers",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2022-4873",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-4874",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Both issues impact the Netcomm router models NF20MESH, NF20, and NL1902 running software QTS versions earlier than R6B035.",
+    "relation_list": [
+      {
+        "subject": "Netcomm router",
+        "object": "QTS",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Netcomm router",
+        "type": "Device"
+      },
+      {
+        "text": "QTS",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The flaw CVE-2022-100 impacts QTS 5.0.1 and QuTS hero h5.0.1 versions.",
+    "relation_list": [
+      {
+        "subject": "QTS",
+        "object": "CVE-2022-100",
+        "predicate": "has"
+      },
+      {
+        "subject": "QuTS hero",
+        "object": "CVE-2022-100",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QTS",
+        "type": "Software"
+      },
+      {
+        "text": "QuTS hero",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2022-100",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "T95 Android TV box came with Android 10 (with working Play store) and an Allwinner H616 processor. ",
+    "relation_list": [
+      {
+        "subject": "T95 Android TV box",
+        "object": "Android 10",
+        "predicate": "has"
+      },
+      {
+        "subject": "T95 Android TV box",
+        "object": "Allwinner H616 processor",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "T95 Android TV box",
+        "type": "Device"
+      },
+      {
+        "text": "Android 10",
+        "type": "Software"
+      },
+      {
+        "text": "Allwinner H616 processor",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Milisic purchased the T95 Android TV box to run Pi-hole, which is a Linux network-level advertisement and Internet tracker blocking application.",
+    "relation_list": [
+      {
+        "subject": "T95 Android TV box",
+        "object": "Pi-hole",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "T95 Android TV box",
+        "type": "Device"
+      },
+      {
+        "text": "Pi-hole",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability resides in the Remote Desktop Functionality of Synology VPN Plus Server before 1.4.3-0534 and 1.4.4-0635. ",
+    "relation_list": [
+      {
+        "subject": "Synology VPN Plus Server",
+        "object": "Remote Desktop Functionality",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Synology VPN Plus Server",
+        "type": "Device"
+      },
+      {
+        "text": "Remote Desktop Functionality",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The Router Manager (SRM) is the operating system that powers every Synology Router. ",
+    "relation_list": [
+      {
+        "subject": "Synology Router",
+        "object": "Router Manager",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Synology Router",
+        "type": "Device"
+      },
+      {
+        "text": "Router Manager",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "The researcher Gaurav Baruah earned $20,000 for demonstrating a command injection attack against the WAN interface of a Synology RT6600ax router.",
+    "relation_list": [
+      {
+        "subject": "command injection",
+        "object": "Synology RT6600ax router",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "command injection",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Synology RT6600ax router",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Computest earned $5,000 for demonstrating a command injection root shell exploit targeting the LAN interface of a RT6600ax router.",
+    "relation_list": [
+      {
+        "subject": "RT6600ax router",
+        "object": "command injection root shell",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "RT6600ax router",
+        "type": "Device"
+      },
+      {
+        "text": "command injection root shell",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Security researcher ReSolver announced the discovery of hardcoded credentials (CVE-2022-40602) in ZyXEL LTE3301-M209 LTE indoor routers.",
+    "relation_list": [
+      {
+        "subject": "ZyXEL LTE3301-M209 LTE indoor routers",
+        "object": "CVE-2022-40602",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ZyXEL LTE3301-M209 LTE indoor routers",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2022-40602",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "In previous research, the expert discovered a Telnet backdoor in D-Link DWR-921 which is also present in the ZyXEL LTE3301-M209 as well. ",
+    "relation_list": [
+      {
+        "subject": "D-Link DWR-921",
+        "object": "Telnet backdoor",
+        "predicate": "has"
+      },
+      {
+        "subject": "ZyXEL LTE3301-M209",
+        "object": "Telnet backdoor",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "D-Link DWR-921",
+        "type": "Device"
+      },
+      {
+        "text": "ZyXEL LTE3301-M209",
+        "type": "Device"
+      },
+      {
+        "text": "Telnet backdoor",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "An Iranian group of hackers, known as Moses Staff, had seized control of dozens of Israeli CCTV cameras, the hack was known to the authorities that did nothing to stop it, reported The Times of Israel which had access to a preview of the full investigative report.",
+    "relation_list": [
+      {
+        "subject": "Moses Staff",
+        "object": "Israeli CCTV cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Moses Staff",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Israeli CCTV cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Microsoft spotted a cross-platform botnet, tracked as MCCrash, which has been designed to launch distributed denial-of-service (DDoS) attacks against private Minecraft servers. ",
+    "relation_list": [
+      {
+        "subject": "MCCrash",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "MCCrash",
+        "object": "Minecraft servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "DDoS",
+        "object": "Minecraft servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MCCrash",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Minecraft servers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The DEV-1028 botnet is known to launch distributed denial of service (DDoS) attacks against private Minecraft servers.",
+    "relation_list": [
+      {
+        "subject": "DEV-1028",
+        "object": "Minecraft servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "DDoS",
+        "object": "Minecraft servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "DEV-1028",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DEV-1028",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Minecraft servers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The DDoS botnet was designed to target private Minecraft Java servers using crafted packets, experts believe it is behind a DDoS-for-hire service offered on forums or darknet sites.",
+    "relation_list": [
+      {
+        "subject": "DDoS",
+        "object": "private Minecraft Java servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS",
+        "type": "Botnet"
+      },
+      {
+        "text": "private Minecraft Java servers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "kr00k \u2013 Billions of Wi-Fi devices affected by encryption vulnerability",
+    "relation_list": [
+      {
+        "subject": "Wi-Fi devices",
+        "object": "kr00k",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Wi-Fi devices",
+        "type": "Device"
+      },
+      {
+        "text": "kr00k",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The IT security researchers at ESET have disclosed a new vulnerability named Kr00k in FullMAC WLAN chips manufactured by Broadcom and Cypress.",
+    "relation_list": [
+      {
+        "subject": "FullMAC WLAN chips",
+        "object": "Kr00k",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "FullMAC WLAN chips",
+        "type": "Device"
+      },
+      {
+        "text": "Kr00k",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "A vulnerability was identified in Windows Defender, an anti-malware component of Microsoft Windows that comes pre-installed with Windows.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Windows Defender",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "17-year-old \u201cwormable\u201d SigRed vulnerability in Windows servers",
+    "relation_list": [
+      {
+        "subject": "Windows servers",
+        "object": "\u201cwormable\u201d SigRed vulnerability",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Windows servers",
+        "type": "Device"
+      },
+      {
+        "text": "\u201cwormable\u201d SigRed vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Since January, DeadBolt ransomware operators are targeting QNAP NAS devices worldwide, they claim the availability of a zero-day exploit that allows them to encrypt the content of the infected systems.",
+    "relation_list": [
+      {
+        "subject": "DeadBolt ransomware operators",
+        "object": "QNAP NAS",
+        "predicate": "target"
+      },
+      {
+        "subject": "DeadBolt ransomware operators",
+        "object": "zero-day",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "DeadBolt ransomware operators",
+        "object": "DeadBolt ransomware",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DeadBolt ransomware operators",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "DeadBolt ransomware",
+        "type": "Malware"
+      },
+      {
+        "text": "QNAP NAS",
+        "type": "Device"
+      },
+      {
+        "text": "zero-day",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "At the end of January, QNAP forced the firmware update for its Network Attached Storage (NAS) devices to protect its customers against the DeadBolt ransomware.",
+    "relation_list": [
+      {
+        "subject": "DeadBolt ransomware",
+        "object": "Network Attached Storage (NAS)",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DeadBolt ransomware",
+        "type": "Malware"
+      },
+      {
+        "text": "Network Attached Storage (NAS)",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "In February, storage solutions provider Asustor warned its customers of a wave of Deadbolt ransomware attacks targeting its NAS devices.",
+    "relation_list": [
+      {
+        "subject": "Deadbolt ransomware",
+        "object": "NAS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DeadBolt ransomware",
+        "type": "Malware"
+      },
+      {
+        "text": "NAS",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "In March, the Internet search engine Censys reported that QNAP devices were targeted in a new wave of DeadBolt ransomware attacks.",
+    "relation_list": [
+      {
+        "subject": "DeadBolt ransomware",
+        "object": "QNAP",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DeadBolt ransomware",
+        "type": "Malware"
+      },
+      {
+        "text": "QNAP",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "In early May, QNAP addressed multiple vulnerabilities, including a critical security issue, tracked as CVE-2022-27588 (CVSS score of 9.8), that could be exploited by a remote attacker to execute arbitrary commands on vulnerable QVR systems.",
+    "relation_list": [
+      {
+        "subject": "QVR systems",
+        "object": "CVE-2022-27588",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QVR systems",
+        "type": "OS"
+      },
+      {
+        "text": "CVE-2022-27588",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The company issued the alert in response to a new wave of DeadBolt ransomware attacks targeting NAS devices using QTS 4.3.6 and QTS 4.4.1.",
+    "relation_list": [
+      {
+        "subject": "DeadBolt ransomware",
+        "object": "NAS devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DeadBolt ransomware",
+        "type": "Malware"
+      },
+      {
+        "text": "NAS devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Security researchers from CYFIRMA have discovered over 80,000 Hikvision cameras affected by a critical command injection vulnerability tracked as CVE-2021-36260.",
+    "relation_list": [
+      {
+        "subject": "Hikvision cameras",
+        "object": "CVE-2021-36260",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "command injection vulnerability",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Hikvision cameras",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2021-36260",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability is an unauthenticated Remote Code Execution (RCE) vulnerability in Hikvision IP camera/NVR firmware, it was discovered by a security researcher that goes online with the moniker \u201cWatchful IP.\u201d",
+    "relation_list": [
+      {
+        "subject": "Hikvision IP camera/NVR firmware",
+        "object": "Remote Code Execution (RCE)",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Hikvision IP camera/NVR firmware",
+        "type": "Software"
+      },
+      {
+        "text": "Remote Code Execution (RCE)",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Experts pointed out that multiple threat actors, including China-linked APT41 and APT10, as well as Russia-linked APT groups could target vulnerable Hikvision cameras.",
+    "relation_list": [
+      {
+        "subject": "APT41",
+        "object": "Hikvision cameras",
+        "predicate": "target"
+      },
+      {
+        "subject": "APT10",
+        "object": "Hikvision cameras",
+        "predicate": "target"
+      },
+      {
+        "subject": "Russia-linked APT groups",
+        "object": "Hikvision cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "APT41",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "APT10",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Russia-linked APT groups",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Hikvision cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Tens of router models from Taiwanese SOHO manufacturer DrayTek are affected by a critical, unauthenticated, remote code execution vulnerability, tracked as CVE-2022-32548.",
+    "relation_list": [
+      {
+        "subject": "Tens of router models from Taiwanese SOHO manufacturer DrayTek",
+        "object": "CVE-2022-32548",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "remote code execution",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-32548",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Tens of router models from Taiwanese SOHO manufacturer DrayTek",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The CVE-2022-30563 vulnerability impacting Dahua IP Camera can allow attackers to seize control of IP cameras. ",
+    "relation_list": [
+      {
+        "subject": "Dahua IP Camera",
+        "object": "CVE-2022-30563",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Dahua IP Camera",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2022-30563",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "We\u2019re publishing the details of a new vulnerability (tracked under CVE-2022-30563) affecting the implementation of the ONVIF WS-UsernameToken authentication mechanism in some IP cameras.",
+    "relation_list": [
+      {
+        "subject": "IP cameras",
+        "object": "CVE-2022-30563",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2022-30563",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "IP cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The flaws of MiCODUS MV720 GPS Tracker were discovered, they have been tracked as CVE-2022-2107,CVE-2022-2141,CVE-2022-2199,CVE-2022-34150 and CVE-2022-33944.",
+    "relation_list": [
+      {
+        "subject": "MiCODUS MV720 GPS Tracker",
+        "object": "CVE-2022-2107",
+        "predicate": "has"
+      },
+      {
+        "subject": "MiCODUS MV720 GPS Tracker",
+        "object": "CVE-2022-2141",
+        "predicate": "has"
+      },
+      {
+        "subject": "MiCODUS MV720 GPS Tracker",
+        "object": "CVE-2022-2199",
+        "predicate": "has"
+      },
+      {
+        "subject": "MiCODUS MV720 GPS Tracker",
+        "object": "CVE-2022-34150",
+        "predicate": "has"
+      },
+      {
+        "subject": "MiCODUS MV720 GPS Tracker",
+        "object": "CVE-2022-33944",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MiCODUS MV720 GPS Tracker",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2022-2107",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-2141",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-2199",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-34150",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-33944",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Taiwanese vendor QNAP is addressing a critical PHP vulnerability, tracked as CVE-2019-11043 (CVSS score 9.8 out of 10), that could be exploited to achieve remote code execution.",
+    "relation_list": [
+      {
+        "subject": "remote code execution",
+        "object": "CVE-2019-11043",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "PHP vulnerability",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2019-11043",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "remote code execution",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The botnet was first discovered by Fortinet in March, the DDoS botnet targeted several routers and web servers by exploiting known vulnerabilities.",
+    "relation_list": [
+      {
+        "subject": "DDoS botnet",
+        "object": "routers",
+        "predicate": "target"
+      },
+      {
+        "subject": "DDoS botnet",
+        "object": "web servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "routers",
+        "type": "Device"
+      },
+      {
+        "text": "web servers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The primary aim of attackers behind this operation is distributing Alien malware that is a precursor for deploying Predator spyware onto infected devices.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Predator",
+        "type": "Malware"
+      },
+      {
+        "text": "Alien",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The first campaign was launched in August last year on Google Chrome, targeting the Samsung Galaxy S21 device. ",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Samsung Galaxy S21",
+        "type": "Device"
+      },
+      {
+        "text": "Google Chrome",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The researchers attribute the botnet to the cybercrime group Keksec which focuses on DDoS-based extortion.",
+    "relation_list": [
+      {
+        "subject": "Keksec",
+        "object": "DDoS-based extortion",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Keksec",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "DDoS-based extortion",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Fronton is a distributed denial-of-service (DDoS) botnet that was used by Russia-linked threat actors for coordinated disinformation campaigns.",
+    "relation_list": [
+      {
+        "subject": "Russia-linked threat actors",
+        "object": "denial-of-service (DDoS) botnet",
+        "predicate": "use"
+      },
+      {
+        "subject": "Russia-linked threat actors",
+        "object": "coordinated disinformation campaigns",
+        "predicate": "related-to"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Russia-linked threat actors",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "denial-of-service (DDoS) botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "coordinated disinformation campaigns",
+        "type": "Campaign"
+      }
+    ]
+  },
+  {
+    "text": "Synology has warned customers that multiple critical Netatalk vulnerabilities affect some of its network-attached storage (NAS) devices. ",
+    "relation_list": [
+      {
+        "subject": "network-attached storage (NAS)",
+        "object": "Netatalk vulnerabilities",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "network-attached storage (NAS)",
+        "type": "Device"
+      },
+      {
+        "text": "Netatalk vulnerabilities",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Taiwanese vendor QNAP warns users to update their NAS Firmware to address Apache HTTP vulnerabilities, tracked as CVE-2022-22721 and CVE-2022-23943.",
+    "relation_list": [
+      {
+        "subject": "NAS Firmware",
+        "object": "CVE-2022-22721",
+        "predicate": "has"
+      },
+      {
+        "subject": "NAS Firmware",
+        "object": "CVE-2022-23943",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2022-23943",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-22721",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "NAS Firmware",
+        "type": "Software"
+      },
+      {
+        "text": "Apache HTTP vulnerabilities",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Researchers at Nozomi Networks Labs have recently discovered a new BotenaGo botnet variant that specifically targets Lilin security camera DVR devices.",
+    "relation_list": [
+      {
+        "subject": "BotenaGo botnet variant",
+        "object": "Lilin security camera DVR",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Lilin security camera DVR",
+        "type": "Device"
+      },
+      {
+        "text": "BotenaGo botnet variant",
+        "type": "Botnet"
+      }
+    ]
+  },
+  {
+    "text": "The recently discovered Cyclops Blink botnet is now targeting the ASUS routers, reports Trend Micro researchers.",
+    "relation_list": [
+      {
+        "subject": "Cyclops Blink botnet",
+        "object": "ASUS routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ASUS routers",
+        "type": "Device"
+      },
+      {
+        "text": "Cyclops Blink botnet",
+        "type": "Botnet"
+      }
+    ]
+  },
+  {
+    "text": "The Cyclops Blink malware has been active since at least June 2019, it targets WatchGuard Firebox and other Small Office/Home Office (SOHO) network devices. ",
+    "relation_list": [
+      {
+        "subject": "Cyclops Blink",
+        "object": "WatchGuard Firebox",
+        "predicate": "target"
+      },
+      {
+        "subject": "Cyclops Blink",
+        "object": "Small Office/Home Office (SOHO) network devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Small Office/Home Office (SOHO) network devices",
+        "type": "Device"
+      },
+      {
+        "text": "WatchGuard Firebox",
+        "type": "Device"
+      },
+      {
+        "text": "Cyclops Blink",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "According to WatchGuard, Cyclops Blink may have affected roughly 1% of all active WatchGuard firewall appliances.",
+    "relation_list": [
+      {
+        "subject": "Cyclops Blink",
+        "object": "WatchGuard firewall appliances",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "WatchGuard firewall appliances",
+        "type": "Device"
+      },
+      {
+        "text": "Cyclops Blink",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Taiwanese hardware vendor QNAP warns most of its Network Attached Storage (NAS) devices are impacted by the recently discovered Linux vulnerability \u2018Dirty Pipe.\u2019",
+    "relation_list": [
+      {
+        "subject": "Network Attached Storage (NAS)",
+        "object": "Dirty Pipe",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Dirty Pipe",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Network Attached Storage (NAS)",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Researchers from IoT security company Armis have discovered three high-impact security flaws, collectively tracked as TLStorm, affecting APC Smart-UPS devices.",
+    "relation_list": [
+      {
+        "subject": "APC Smart-UPS",
+        "object": "TLStorm",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "APC Smart-UPS",
+        "type": "Device"
+      },
+      {
+        "text": "TLStorm",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "If exploited, these vulnerabilities, dubbed TLStorm, allow for complete remote take-over of Smart-UPS devices and the ability to carry out extreme cyber-physical attacks.",
+    "relation_list": [
+      {
+        "subject": "Smart-UPS",
+        "object": "TLStorm",
+        "predicate": "has"
+      },
+      {
+        "subject": "extreme cyber-physical attacks",
+        "object": "TLStorm",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "extreme cyber-physical attacks",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "TLStorm",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Smart-UPS",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Recently a new wave of Qlocker ransomware was observed targeting QNAP NAS devices worldwide. ",
+    "relation_list": [
+      {
+        "subject": "Qlocker ransomware",
+        "object": " QNAP NAS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QNAP NAS",
+        "type": "Device"
+      },
+      {
+        "text": "Qlocker ransomware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "In December 2021, experts also observed ech0raix ransomware attacks targeting QNAP network-attached storage (NAS) devices.",
+    "relation_list": [
+      {
+        "subject": "ech0raix ransomware attacks",
+        "object": "QNAP network-attached storage (NAS)",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QNAP network-attached storage (NAS)",
+        "type": "Device"
+      },
+      {
+        "text": "ech0raix ransomware attacks",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The company also addressed two critical issues in the web-based management interface of the Small Business RV routers, tracked as CVE-2022-20700 (CVSS score of 10) and CVE-2022-20701 (CVSS score of 9.0) respectively.",
+    "relation_list": [
+      {
+        "subject": "Small Business RV routers",
+        "object": "CVE-2022-20700",
+        "predicate": "has"
+      },
+      {
+        "subject": "Small Business RV routers",
+        "object": "CVE-2022-20701",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Small Business RV routers",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2022-20701",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-20700",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The experts believe that threat actors behind the campaign leveraged EternalBlue (CVE-2017-0144) and EternalRed (CVE-2017-7494) exploits on unpatched Windows and Linux systems, respectively.",
+    "relation_list": [
+      {
+        "subject": "Windows",
+        "object": "CVE-2017-0144",
+        "predicate": "has"
+      },
+      {
+        "subject": "Windows",
+        "object": "CVE-2017-7494",
+        "predicate": "has"
+      },
+      {
+        "subject": "Linux",
+        "object": "CVE-2017-0144",
+        "predicate": "has"
+      },
+      {
+        "subject": "Linux",
+        "object": "CVE-2017-7494",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Windows",
+        "type": "OS"
+      },
+      {
+        "text": "Linux",
+        "type": "OS"
+      },
+      {
+        "text": "CVE-2017-0144",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2017-7494",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "EternalBlue",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "EternalRed",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Cybersecurity researchers from SentinelOne have discovered a critical vulnerability (CVE-2021-45608) in KCodes NetUSB component.",
+    "relation_list": [
+      {
+        "subject": "KCodes NetUSB component",
+        "object": "CVE-2021-45608",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2021-45608",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "KCodes NetUSB component",
+        "type": "Hardware"
+      }
+    ]
+  },
+  {
+    "text": "Anomali researchers reported a wave of eCh0raix attacks against Synology NAS devices, threat actors conducted brute-force attacks against them.",
+    "relation_list": [
+      {
+        "subject": "eCh0raix attacks",
+        "object": "Synology NAS",
+        "predicate": "target"
+      },
+      {
+        "subject": "brute-force attacks",
+        "object": "Synology NAS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "brute-force attacks",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "eCh0raix attacks",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Synology NAS",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The threat actors behind the ech0raix ransomware are targeting NAP network-attached storage (NAS) devices, many users reported numerous compromises of their devices a few days before Christmas.",
+    "relation_list": [
+      {
+        "subject": "ech0raix ransomware",
+        "object": "NAP network-attached storage (NAS)",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "NAP network-attached storage (NAS)",
+        "type": "Device"
+      },
+      {
+        "text": "ech0raix ransomware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The flaw was later tracked as CVE-2021-30869, a type-confusion zero-day flaw that Apple has now patched.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE-2021-30869",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "A vulnerability in Intel CPUs allowed an attacker with physical access to a device to gain enhanced privileges on the system.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Intel CPUs",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Positive Technologies security researchers have identified a vulnerability in Intel CPUs, allowing an attacker with physical access to a device to gain enhanced privileges on the system.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Intel CPUs",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "At this time, it is not clear how threat actors compromised the QNAP devices, some users claim that attackers exploited a flaw in the Photo Station software to hack them.",
+    "relation_list": [
+      {
+        "subject": "QNAP",
+        "object": "a flaw in the Photo Station software",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QNAP",
+        "type": "Device"
+      },
+      {
+        "text": "a flaw in the Photo Station software",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "In August, a new variant of the eCh0raix ransomware started infecting Network-Attached Storage (NAS) devices from Taiwanese vendors QNAP and Synology.",
+    "relation_list": [
+      {
+        "subject": "variant of the eCh0raix ransomwar",
+        "object": "Network-Attached Storage (NAS)",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Network-Attached Storage (NAS)",
+        "type": "Device"
+      },
+      {
+        "text": "variant of the eCh0raix ransomwar",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Dark Mirai botnet spreads by exploiting a new vulnerability, tracked as CVE-2021-41653, affecting TP-Link TL-WR840N EU V5 home routers.",
+    "relation_list": [
+      {
+        "subject": "Dark Mirai",
+        "object": "CVE-2021-41653",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "TP-Link TL-WR840N EU V5 home routers",
+        "object": "CVE-2021-41653",
+        "predicate": "has"
+      },
+      {
+        "subject": "Dark Mirai",
+        "object": "TP-Link TL-WR840N EU V5 home routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "TP-Link TL-WR840N EU V5 home routers",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2021-41653",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Dark Mirai",
+        "type": "Botnet"
+      }
+    ]
+  },
+  {
+    "text": "The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL-WR840N(EU)_V5_171211 is vulnerable to remote code execution via a crafted payload in an IP address input field.",
+    "relation_list": [
+      {
+        "subject": "TP-Link TL-WR840N EU v5 router",
+        "object": "TL-WR840N(EU)_V5_171211",
+        "predicate": "has"
+      },
+      {
+        "subject": "remote code execution",
+        "object": "TP-Link TL-WR840N EU v5 router",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "remote code execution",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "TP-Link TL-WR840N EU v5 router",
+        "type": "Device"
+      },
+      {
+        "text": "TL-WR840N(EU)_V5_171211",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "In recent news, an Iranian stalkerware app named Spyhide has been silently gathering sensitive data from over 60,000 compromised Android devices worldwide since 2016.",
+    "relation_list": [
+      {
+        "subject": "Spyhide",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Android devices",
+        "type": "Device"
+      },
+      {
+        "text": "Spyhide",
+        "type": "Malware"
+      },
+      {
+        "text": "gathering sensitive data from over 60,000 compromised Android devices worldwide",
+        "type": "Campaign"
+      }
+    ]
+  },
+  {
+    "text": "Stalkerware apps, like Spyhide, are designed to spy on individuals secretly, posing a significant threat to personal privacy and safety.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Spyhide",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "In conclusion, the exposure of Spyhide\u2019s massive data breach highlights the need for increased security measures, user awareness, and stringent regulations to protect against the abuse of stalkerware and uphold personal privacy rights in the digital age.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "exposure of Spyhide\u2019s massive data breach",
+        "type": "Campaign"
+      },
+      {
+        "text": "Spyhide",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Experts warn of the availability of proof of concept (PoC) exploit code for a couple of authentication bypass vulnerabilities in Dahua cameras, tracked as CVE-2021-33044 and CVE-2021-33045. ",
+    "relation_list": [
+      {
+        "subject": "proof of concept (PoC)",
+        "object": "CVE-2021-33044",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "proof of concept (PoC)",
+        "object": "CVE-2021-33045",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "Dahua cameras",
+        "object": "CVE-2021-33045",
+        "predicate": "has"
+      },
+      {
+        "subject": "Dahua cameras",
+        "object": "CVE-2021-33044",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2021-33044",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2021-33045",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Dahua cameras",
+        "type": "Device"
+      },
+      {
+        "text": "proof of concept (PoC)",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "A critical vulnerability, tracked as CVE-2021-36260, affects more than 70 Hikvision camera and NVR models and can allow attackers to take over the devices.",
+    "relation_list": [
+      {
+        "subject": "Hikvision camera",
+        "object": "CVE-2021-36260",
+        "predicate": "has"
+      },
+      {
+        "subject": "NVR models",
+        "object": "CVE-2021-36260",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2021-36260",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "NVR models",
+        "type": "Device"
+      },
+      {
+        "text": "Hikvision camera",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability is an unauthenticated Remote Code Execution (RCE) vulnerability in Hikvision IP camera/NVR firmware.",
+    "relation_list": [
+      {
+        "subject": "Hikvision IP camera",
+        "object": "Remote Code Execution (RCE) vulnerability",
+        "predicate": "has"
+      },
+      {
+        "subject": "NVR firmware",
+        "object": "Remote Code Execution (RCE) vulnerability",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Remote Code Execution (RCE) vulnerability",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "NVR firmware",
+        "type": "Software"
+      },
+      {
+        "text": "Hikvision IP camera",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Researchers provided technical details about a recently addressed critical vulnerability, dubbed Seventh Inferno, in Netgear smart switches that could be exploited by an attacker execute malicious code.",
+    "relation_list": [
+      {
+        "subject": "Netgear smart switches",
+        "object": "Seventh Inferno",
+        "predicate": "has"
+      },
+      {
+        "subject": "execute malicious code",
+        "object": "Seventh Inferno",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Seventh Inferno",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "execute malicious code",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Netgear smart switches",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Two vulnerabilities named CVE-2021-3711 and CVE-2021-3712 have been reported to affect QNAP NAS running QTS, QuTS hero, and QuTScloud.",
+    "relation_list": [
+      {
+        "subject": "QNAP NAS",
+        "object": "QTS",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP NAS",
+        "object": "QuTS hero",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP NAS",
+        "object": "QuTScloud",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP NAS",
+        "object": "CVE-2021-3711",
+        "predicate": "has"
+      },
+      {
+        "subject": "QNAP NAS",
+        "object": "CVE-2021-3712",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QNAP NAS",
+        "type": "Device"
+      },
+      {
+        "text": "QTS",
+        "type": "Software"
+      },
+      {
+        "text": "QuTS hero",
+        "type": "Software"
+      },
+      {
+        "text": "QuTScloud",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2021-3711",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2021-3712",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Operators behind the FreakOut (aka Necro, N3Cr0m0rPh) Python botnet have added a PoC exploit for Visual Tools DVR, a professional digital video recorder used in surveillance video systems.",
+    "relation_list": [
+      {
+        "subject": "FreakOut (aka Necro, N3Cr0m0rPh) Python",
+        "object": "Visual Tools DVR",
+        "predicate": "target"
+      },
+      {
+        "subject": "FreakOut (aka Necro, N3Cr0m0rPh) Python",
+        "object": "PoC",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "Visual Tools DVR",
+        "object": "PoC",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "FreakOut (aka Necro, N3Cr0m0rPh) Python",
+        "type": "Botnet"
+      },
+      {
+        "text": "PoC",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Visual Tools DVR",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "According to the prosecutors, Rsocks used brute force attacks to invade millions of devices and expand the botnet army illegally.",
+    "relation_list": [
+      {
+        "subject": "Rsocks",
+        "object": "brute force attacks",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Rsocks",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "brute force attacks",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "In this PoC, the ransomware attack dubbed R4IoT uses vulnerable IoT devices (in this case, vulnerable security cameras) to gain access, IT for traversal, and OT, particularly PLCs for detonation.",
+    "relation_list": [
+      {
+        "subject": "R4IoT",
+        "object": "security cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "R4IoT",
+        "type": "Malware"
+      },
+      {
+        "text": "security cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Car manufacturers use Intel Atom E3900 series IoT processors, which reportedly contain the vulnerability (tracked as CVE-2021-0146).",
+    "relation_list": [
+      {
+        "subject": "Intel Atom E3900 series IoT processors",
+        "object": "CVE-2021-0146",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Intel Atom E3900 series IoT processors",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2021-0146",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability (CVE-2021-28372) is present in the company\u2019s P2P SDK, which is a function that allows a client on a desktop or mobile app to access the camera\u2019s audio or video streams via the internet.",
+    "relation_list": [
+      {
+        "subject": "P2P SDK",
+        "object": "CVE-2021-28372",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "P2P SDK",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2021-28372",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Kaiji IoT malware brute-forces Linux devices for DDoS attacks",
+    "relation_list": [
+      {
+        "subject": "Kaiji",
+        "object": "brute-forces",
+        "predicate": "use"
+      },
+      {
+        "subject": "Kaiji",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "Kaiji",
+        "object": "Linux devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "brute-forces",
+        "object": "Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Kaiji",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "brute-forces",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Linux devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": " This IP address was hosting Gafgyt botnet and contained an exploit for a vulnerability that has been classified as CVE-2018-9866. ",
+    "relation_list": [
+      {
+        "subject": "Gafgyt",
+        "object": "CVE-2018-9866",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Gafgyt",
+        "type": "Botnet"
+      },
+      {
+        "text": "CVE-2018-9866",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The new version of Mirai can target the same vulnerability in Apache Struts that was previously linked with the Equifax data breach in 2017.",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "Apache Struts",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Botnet"
+      },
+      {
+        "text": "Apache Struts",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Mirai IoT bot malware is one such piece of malicious coding that created quite a stir within the tech world by converting normal IoT devices into DDoS attack vectors. ",
+    "relation_list": [
+      {
+        "subject": "Mirai IoT bot malware",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai IoT bot malware",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Last year the world was startled when Mirai malware managed to infect a whopping 500,000 IoT devices and formed a massive army of botnets and then disrupted internet service in the US and Europe through launching DDoS attacks.",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "According to their research, the malware, dubbed as IOTroop or Reaper can target and hijack IoT devices including routers, webcams, and DVRs.",
+    "relation_list": [
+      {
+        "subject": "IOTroop or Reaper",
+        "object": "routers",
+        "predicate": "target"
+      },
+      {
+        "subject": "IOTroop or Reaper",
+        "object": "webcams",
+        "predicate": "target"
+      },
+      {
+        "subject": "IOTroop or Reaper",
+        "object": "DVRs",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "IOTroop or Reaper",
+        "type": "Malware"
+      },
+      {
+        "text": "routers",
+        "type": "Device"
+      },
+      {
+        "text": "webcams",
+        "type": "Device"
+      },
+      {
+        "text": "DVRs",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The attack allowed an attacker to carry remote attacks against almost all iPhones and Android devices.",
+    "relation_list": [
+      {
+        "subject": "remote attacks",
+        "object": "iPhones",
+        "predicate": "target"
+      },
+      {
+        "subject": "remote attacks",
+        "object": "Android",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "iPhones",
+        "type": "Device"
+      },
+      {
+        "text": "Android",
+        "type": "Device"
+      },
+      {
+        "text": "remote attacks",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Security firm Radware\u2019s researchers have detected over 2,250 PDoS (Permanent Denial Of Service) attacks in only four days, these attacks are being conducted by two variations of botnets called BrickerBot.1 and BrickerBot.2.",
+    "relation_list": [
+      {
+        "subject": "BrickerBot.1",
+        "object": "PDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "BrickerBot.2",
+        "object": "PDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "BrickerBot.1",
+        "type": "Botnet"
+      },
+      {
+        "text": "BrickerBot.2",
+        "type": "Botnet"
+      },
+      {
+        "text": "PDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "These attacks resemble those of Mirai, a special botnet whose purpose was to create an army of hacked IoT devices and use them to damage prominent websites through the large usage of DDoS attacks. ",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "If you remember the 1 Tbps DDoS attack on French-based OVH hosting company you may also remember that it was conducted through Mirai botnet by hacking 145,000 IoT devices.",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "1 Tbps DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Botnet"
+      },
+      {
+        "text": "1 Tbps DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Nevertheless, it has recently been discovered that a group of hackers is selling hacked IoT devices (DDoS botnet) that can launch a full-fledged DDoS attack on the entire web. ",
+    "relation_list": [
+      {
+        "subject": "DDoS botnet",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS botnet",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Just yesterday, Chinese company Hangzhou Xiongmai recalled its devices after the involvement of its webcam was confirmed in Dyn DDoS attack.",
+    "relation_list": [
+      {
+        "subject": "DDoS",
+        "object": "webcam",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "webcam",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The IT security researchers at MalwareMustDie have discovered a malware that is capable of infecting Linux-based Internet of Things (IoT) devices and web servers to launch DDoS (Distributed Denial of Service) attacks.",
+    "relation_list": [
+      {
+        "subject": "DDoS",
+        "object": "Linux-based Internet of Things (IoT) devices and web servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Linux-based Internet of Things (IoT) devices and web servers",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Researchers have discovered a malware called Luabot being used to Launch DDoS Attacks",
+    "relation_list": [
+      {
+        "subject": "Luabot",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Luabot",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Previously, Bashlite or Lizkebab malware was also found targeting Linux-based IoT and conducting DDoS attacks on banking and government offices in South America.",
+    "relation_list": [
+      {
+        "subject": "Bashlite or Lizkebab",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "DDoS",
+        "object": "Linux-based IoT",
+        "predicate": "target"
+      },
+      {
+        "subject": "Bashlite or Lizkebab",
+        "object": "Linux-based IoT",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Bashlite or Lizkebab",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Linux-based IoT",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Lizard Squad also released a Linux-based DDoS tool LizardStresser which has been used to hack CCTV devices and use them to target high profile targets flooding them with as much as 400Gbps of data.",
+    "relation_list": [
+      {
+        "subject": "LizardStresser",
+        "object": "CCTV devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "LizardStresser",
+        "type": "Malware"
+      },
+      {
+        "text": "CCTV devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Researchers have exposed millions of Linux-based IoT devices infected with BASHLITE malware.",
+    "relation_list": [
+      {
+        "subject": "BASHLITE",
+        "object": "Linux-based IoT devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "BASHLITE",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux-based IoT devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Bashlite can brute force a vulnerable device and steal its login credentials and distributes itself on other devices.",
+    "relation_list": [
+      {
+        "subject": "Bashlite",
+        "object": "brute force",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Bashlite",
+        "type": "Malware"
+      },
+      {
+        "text": "brute force",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The 8220 gang, believed to be of Chinese origins, was first identified in 2017 by Cisco Talos when they targeted Drupal, Hadoop YARN, and Apache Struts2 applications for propagating cryptojacking malware.",
+    "relation_list": [
+      {
+        "subject": "8220 gang",
+        "object": "Drupal",
+        "predicate": "target"
+      },
+      {
+        "subject": "8220 gang",
+        "object": "Hadoop YARN",
+        "predicate": "target"
+      },
+      {
+        "subject": "8220 gang",
+        "object": "Apache Struts2",
+        "predicate": "target"
+      },
+      {
+        "subject": "8220 gang",
+        "object": "cryptojacking malware",
+        "predicate": "use"
+      },
+      {
+        "subject": "cryptojacking malware",
+        "object": "Drupal",
+        "predicate": "target"
+      },
+      {
+        "subject": "cryptojacking malware",
+        "object": "Hadoop YARN",
+        "predicate": "target"
+      },
+      {
+        "subject": "cryptojacking malware",
+        "object": "Apache Struts2",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "cryptojacking malware",
+        "type": "Malware"
+      },
+      {
+        "text": "8220 gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Drupal",
+        "type": "Software"
+      },
+      {
+        "text": "Hadoop YARN",
+        "type": "Software"
+      },
+      {
+        "text": "Apache Struts2",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The 8220 Gang is exploiting multiple vulnerabilities, including the Oracle WebLogic Server vulnerability, to propagate cryptojacking malware in the Americas, Europe, and Africa.",
+    "relation_list": [
+      {
+        "subject": "8220 Gang",
+        "object": "Oracle WebLogic Server vulnerability",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "8220 Gang",
+        "object": "cryptojacking malware",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "cryptojacking malware",
+        "type": "Malware"
+      },
+      {
+        "text": "8220 Gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Oracle WebLogic Server vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The 8220 gang mainly targets Windows and Linux web servers with cryptojacking malware.",
+    "relation_list": [
+      {
+        "subject": "8220 gang",
+        "object": "Windows and Linux web servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "cryptojacking malware",
+        "object": "Windows and Linux web servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "8220 gang",
+        "object": "cryptojacking malwares",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "8220 gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Windows and Linux web servers",
+        "type": "Malware"
+      },
+      {
+        "text": "cryptojacking malwares",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "recently, Trend Micro found them leveraging Oracle WebLogic vulnerability (CVE-2017-3506) to infect systems.",
+    "relation_list": [
+      {
+        "subject": "8220 gang",
+        "object": "CVE-2017-3506",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "8220 gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "CVE-2017-3506",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "According to Imperva\u2019s blog post, the 8220 gang is also exploiting CVE-2020-14883, a Remote Code Execution vulnerability in the Oracle WebLogic Server, to spread malware. ",
+    "relation_list": [
+      {
+        "subject": "8220 gang",
+        "object": "CVE-2020-14883",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "8220 gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "CVE-2020-14883",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The 8220 gang uses various methods to target Linux hosts.",
+    "relation_list": [
+      {
+        "subject": "8220 gang",
+        "object": "Linux hosts",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "8220 gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Linux hosts",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Imperva Cloud WAF and on-prem WAF have identified and mitigated web vulnerabilities used by the 8220 gang for malicious activities. ",
+    "relation_list": [
+      {
+        "subject": "8220 gang",
+        "object": "web vulnerabilities",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "8220 gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "web vulnerabilities",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The malware, dubbed NKAbuse, uses New Kind of Network (NKN) technology, a blockchain-powered peer-to-peer network protocol to spread its infection.",
+    "relation_list": [
+      {
+        "subject": "NKAbuse",
+        "object": "Network (NKN)",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "NKAbuse",
+        "type": "Malware"
+      },
+      {
+        "text": "Network (NKN)",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "NKAbuse allows attackers to launch Distributed Denial of Service (DDoS) attacks or fling remote access trojans (RATs).",
+    "relation_list": [
+      {
+        "subject": "NKAbuse",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "NKAbuse",
+        "object": "RATs",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "NKAbuse",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "RATs",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Further examination revealed that NKAbuse exploits an old Apache Struts 2 vulnerability (tracked as CVE-2017-5638).",
+    "relation_list": [
+      {
+        "subject": "NKAbuse",
+        "object": "CVE-2017-5638",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "NKAbuse",
+        "type": "Malware"
+      },
+      {
+        "text": "CVE-2017-5638",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Qurium, the Swedish media foundation and human rights watchdog leading the investigation into these DDoS attacks implicates FineProxy and RayoByte in facilitating the attacks.",
+    "relation_list": [
+      {
+        "subject": "FineProxy",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "RayoByte",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "RayoByte",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "FineProxy",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "Security researchers have found vulnerabilities in the TP-Link Tapo L530E smart bulb and the corresponding Tapo app.",
+    "relation_list": [
+      {
+        "subject": "TP-Link Tapo L530E smart bulb",
+        "object": "Tapo",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Tapo",
+        "type": "Software"
+      },
+      {
+        "text": "TP-Link Tapo L530E smart bulb",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "A recent investigation by security researchers from Italy and the UK has illuminated potential vulnerabilities in the popular TP-Link Tapo L530E smart bulb and the corresponding Tapo app.",
+    "relation_list": [
+      {
+        "subject": "TP-Link Tapo L530E smart bulb",
+        "object": "Tapo",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Tapo",
+        "type": "Software"
+      },
+      {
+        "text": "TP-Link Tapo L530E smart bulb",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": " Moreover, unconfigured Tapo devices can be utilized in MITM attacks to extract sensitive information during the setup process.",
+    "relation_list": [
+      {
+        "subject": "MITM",
+        "object": "unconfigured Tapo devices",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MITM",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "unconfigured Tapo devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Google researchers reveal a new side-channel attack called \u201cDownfall\u201d targeting Intel processors, exposing a memory optimization vulnerability (CVE-2022-40982).",
+    "relation_list": [
+      {
+        "subject": "Downfall",
+        "object": "Intel processors",
+        "predicate": "target"
+      },
+      {
+        "subject": "Downfall",
+        "object": "CVE-2022-40982",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "Intel processors",
+        "object": "CVE-2022-40982",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Downfall",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "CVE-2022-40982",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Intel processors",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Google researchers have uncovered a new side-channel attack known as \u201cDownfall\u201d targeting Intel processors.",
+    "relation_list": [
+      {
+        "subject": "Downfall",
+        "object": "Intel processors",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Intel processors",
+        "type": "Software"
+      },
+      {
+        "text": "Downfall",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "his attack, discovered by Google senior research scientist Daniel Moghimi, exposes a vulnerability tracked as CVE-2022-40982, exploiting a memory optimization feature in Intel processors.",
+    "relation_list": [
+      {
+        "subject": "Intel processors",
+        "object": "CVE-2022-40982",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2022-40982",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Intel processors",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Notably, Google researchers also unveiled \u201cZenbleed,\u201d a vulnerability afflicting AMD Zen 2 processors, reiterating the broader implications of such vulnerabilities across the industry.",
+    "relation_list": [
+      {
+        "subject": "AMD Zen 2 processors",
+        "object": "\u201cZenbleed",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "AMD Zen 2 processors",
+        "type": "Software"
+      },
+      {
+        "text": "\u201cZenbleed",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Inception targets devices powered by AMD Zen processors, allowing attackers to manipulate the CPU\u2019s predictive algorithms to access sensitive data.",
+    "relation_list": [
+      {
+        "subject": "AMD Zen processors",
+        "object": "Inception",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "AMD Zen processors",
+        "type": "Software"
+      },
+      {
+        "text": "Inception",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "In this report, the company issued a warning about the increasing threat of DDoS attacks powered by IoT botnets, specifically targeting global Telecom networks.",
+    "relation_list": [
+      {
+        "subject": "IoT botnets",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "IoT botnets",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Leading OT cybersecurity firm OTORIO has discovered (PDF) a high-severity heap-based buffer overflow vulnerability in the AXIS A1001 system from Axis Communications. ",
+    "relation_list": [
+      {
+        "subject": "AXIS A1001",
+        "object": "PDF",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "PDF",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "AXIS A1001",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "What makes CVE-2023-21406 an issue of concern for the cybersecurity community is that attackers may exploit it for conducting RCE (remote code execution) on the internal access controller from outside the facility. ",
+    "relation_list": [
+      {
+        "subject": "RCE (remote code execution)",
+        "object": "CVE-2023-21406",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "RCE (remote code execution)",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "CVE-2023-21406",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Vulnerabilities exposed Peloton treadmills to DoS attacks",
+    "relation_list": [
+      {
+        "subject": "DoS",
+        "object": "Peloton treadmills",
+        "predicate": "target"
+      },
+      {
+        "subject": "DoS",
+        "object": "Vulnerabilities",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "Peloton treadmills",
+        "object": "Vulnerabilities",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Peloton treadmills",
+        "type": "Device"
+      },
+      {
+        "text": "Vulnerabilities",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The fake PoC is a copy of a legitimate exploit for another Linux kernel vulnerability, CVE-2022-34918.",
+    "relation_list": [
+      {
+        "subject": "Linux",
+        "object": "CVE-2022-34918",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2022-34918",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Linux",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "APT28, or Fancy Bear, is a Russian government-backed nefarious hacking group known for using spear-phishing campaigns against its targets.",
+    "relation_list": [
+      {
+        "subject": "APT28, or Fancy Bear",
+        "object": "spear-phishing campaigns",
+        "predicate": "related-to"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "spear-phishing campaigns",
+        "type": "Campaign"
+      },
+      {
+        "text": "APT28, or Fancy Bear",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "APT28 made headlines during the 2016 US elections after hacking the servers of the US Democratic Party.",
+    "relation_list": [
+      {
+        "subject": "APT28",
+        "object": "the servers of the US Democratic Party",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "APT28",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "the servers of the US Democratic Party",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "In an announcement on Telegram, the Russian KillNet hacker group claimed to have targeted NATO with DDoS attacks, stolen plain-text login credentials and used them to create accounts on a gay dating portal in Kyiv and Moldova.",
+    "relation_list": [
+      {
+        "subject": "KillNet",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "KillNet",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "KillNet, a pro-Russian group of hacktivists, has claimed responsibility for a series of Distributed Denial of Service (DDoS) attacks.",
+    "relation_list": [
+      {
+        "subject": "KillNet",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "KillNet",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "ALPHV Ransomware group threatens to leak sensitive data stolen from amazon\u2019s ring security cameras unless demands are met.",
+    "relation_list": [
+      {
+        "subject": "ALPHV",
+        "object": "amazon\u2019s ring security cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ALPHV",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "amazon\u2019s ring security cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "ALPHV is a ransomware group known for using the BlackCat malware.",
+    "relation_list": [
+      {
+        "subject": "ALPHV",
+        "object": "BlackCat",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ALPHV",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "BlackCat",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The ALPHV ransomware group is involved in a series of ransomware attacks using BlackCat malware and operates a ransomware-as-a-service platform.",
+    "relation_list": [
+      {
+        "subject": "ALPHV",
+        "object": "BlackCat",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ALPHV",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "BlackCat",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "OpIran \u2013 Anonymous Hits Iranian State Sites, Hacks Over 300 CCTV Cameras",
+    "relation_list": [
+      {
+        "subject": "OpIran",
+        "object": "CCTV Cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CCTV Cameras",
+        "type": "Device"
+      },
+      {
+        "text": "OpIran",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "Dubbed OpIran (Operation Iran) by Anonymous; the hacktivists have taken down a number of top government websites and hacked over 300 security cameras in different parts of the country.",
+    "relation_list": [
+      {
+        "subject": "OpIran",
+        "object": "security cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "security cameras",
+        "type": "Device"
+      },
+      {
+        "text": "OpIran",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "In the latest, Anonymous has claimed to have compromised 300 security camera installations by exploiting a 5.4 severity score vulnerability.",
+    "relation_list": [
+      {
+        "subject": "Anonymous",
+        "object": "security camera",
+        "predicate": "target"
+      },
+      {
+        "subject": "Anonymous",
+        "object": "5.4 severity score vulnerability",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "security camera",
+        "object": "5.4 severity score vulnerability",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "5.4 severity score vulnerability",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "security camera",
+        "type": "Device"
+      },
+      {
+        "text": "Anonymous",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": " In August last year, hackers from Edaalate Ali (Ali\u2019s Justice or Ali\u2019s Court) group breached the computer system and security cameras at a prison facility in northern Tehran.",
+    "relation_list": [
+      {
+        "subject": "Edaalate Ali (Ali\u2019s Justice or Ali\u2019s Court)",
+        "object": "computer system and security cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Edaalate Ali (Ali\u2019s Justice or Ali\u2019s Court)",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "computer system and security cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Anonymous has carried out a series of DDoS attacks against Iranian state institutions.",
+    "relation_list": [
+      {
+        "subject": "Anonymous",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Anonymous",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The indictment also includes various examples of hacks Kottmann has committed including the massive Verkada hack in which they gained access to footage of 150,000+ security cameras",
+    "relation_list": [
+      {
+        "subject": "Kottmann",
+        "object": "Verkada hack",
+        "predicate": "use"
+      },
+      {
+        "subject": "Kottmann",
+        "object": "security cameras",
+        "predicate": "target"
+      },
+      {
+        "subject": "Verkada hack",
+        "object": "security cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Kottmann",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Verkada hack",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "security cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Kasa camera flaw allows enumerating usernames for credential stuffing",
+    "relation_list": [
+      {
+        "subject": "credential stuffing",
+        "object": "Kasa camera flaw",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "credential stuffing",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Kasa camera flaw",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "For instance, the infamous WannaCry ransomware attack on the NHS\u2019s computer system in the United Kingdom.",
+    "relation_list": [
+      {
+        "subject": "WannaCry",
+        "object": "NHS\u2019s computer system",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "WannaCry",
+        "type": "Malware"
+      },
+      {
+        "text": "NHS\u2019s computer system",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "Jonathan Leitschuh, an IT security researcher has discovered a critical zero-day vulnerability in the Zoom video conference app for Mac devices",
+    "relation_list": [
+      {
+        "subject": "Zoom video conference app",
+        "object": "zero-day",
+        "predicate": "has"
+      },
+      {
+        "subject": "Mac devices",
+        "object": "zero-day",
+        "predicate": "has"
+      },
+      {
+        "subject": "Mac devices",
+        "object": "Zoom video conference app",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "zero-day",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Mac devices",
+        "type": "Device"
+      },
+      {
+        "text": "Zoom video conference app",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Selfie stealing malware found in popular Android beauty camera apps",
+    "relation_list": [
+      {
+        "subject": "Selfie stealing malware",
+        "object": "Android beauty camera apps",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Selfie stealing malware",
+        "type": "Malware"
+      },
+      {
+        "text": "Android beauty camera apps",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Israeli Rabbi arrested for hacking CCTV cameras at women\u2019 bathing suit shop.",
+    "relation_list": [
+      {
+        "subject": "Israeli Rabbi",
+        "object": "CCTV cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Israeli Rabbi",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "CCTV cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Previously, a group of Pro-Hezbollah hackers took over security camera systems and claimed it acquired access to live camera footages of government buildings in Haifa and Tel Aviv.",
+    "relation_list": [
+      {
+        "subject": "Pro-Hezbollah hackers",
+        "object": "security camera systems",
+        "predicate": "target"
+      },
+      {
+        "subject": "Pro-Hezbollah hackers",
+        "object": "live camera",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Pro-Hezbollah hackers",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "security camera systems",
+        "type": "OS"
+      },
+      {
+        "text": "live camera",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Groups like Lizard Squad and PoodleCorp are recent examples of hackers who compromised security cameras to conduct large-scale DDoS attacks on popular gaming platforms including like PlayStation and Steam.",
+    "relation_list": [
+      {
+        "subject": "Lizard Squad",
+        "object": "PlayStation",
+        "predicate": "target"
+      },
+      {
+        "subject": "PoodleCorp",
+        "object": "PlayStation",
+        "predicate": "target"
+      },
+      {
+        "subject": "Lizard Squad",
+        "object": "Steam",
+        "predicate": "target"
+      },
+      {
+        "subject": "PoodleCorp",
+        "object": "Steam",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Lizard Squad",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "PoodleCorp",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "PlayStation",
+        "type": "Software"
+      },
+      {
+        "text": "Steam",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The United States Secret Service filed an affidavit accusing the Romanian citizens Alexandru Isvanca and Cismaru for hacking into 123 out of the total 197 security cameras that were being operated by the Metropolitan Police Dept of District of Columbia.",
+    "relation_list": [
+      {
+        "subject": "Alexandru Isvanca",
+        "object": "security cameras",
+        "predicate": "target"
+      },
+      {
+        "subject": "Cismaru",
+        "object": "security cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "security cameras",
+        "type": "Device"
+      },
+      {
+        "text": "Alexandru Isvanca",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Cismaru",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "Internet\u2019s largest 1Tbps DDoS Attack was conducted using 145k hacked cameras",
+    "relation_list": [
+      {
+        "subject": "145k hacked cameras",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "145k hacked cameras",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "WannaCry Ransomware Hits Traffic Cameras in Australia",
+    "relation_list": [
+      {
+        "subject": "WannaCry",
+        "object": "Traffic Cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Traffic Cameras",
+        "type": "Device"
+      },
+      {
+        "text": "WannaCry",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Just days after infecting the cyber infrastructure of Honda Automobile giant in Japan the WannaCry ransomware attack has now infected 55 traffic cameras in Victoria, Australia.",
+    "relation_list": [
+      {
+        "subject": "WannaCry",
+        "object": "Traffic Cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Traffic Cameras",
+        "type": "Device"
+      },
+      {
+        "text": "WannaCry",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Persirai malware in action: IP cameras all across the world compromised",
+    "relation_list": [
+      {
+        "subject": "Persirai",
+        "object": "IP cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Persirai",
+        "type": "Malware"
+      },
+      {
+        "text": "IP cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "As you may remember, it was recently reported that a malware named Persirai had been attacking numerous IP cameras with record-breaking Distributed denial-of-service (DDoS) attacks in 2016.",
+    "relation_list": [
+      {
+        "subject": "Persirai",
+        "object": "IP cameras",
+        "predicate": "target"
+      },
+      {
+        "subject": "Persirai",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "DDoS",
+        "object": "IP cameras",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Persirai",
+        "type": "Malware"
+      },
+      {
+        "text": "IP cameras",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Nevertheless, it has recently been discovered that a group of hackers is selling hacked IoT devices (DDoS botnet) that can launch a full-fledged DDoS attack on the entire web. ",
+    "relation_list": [
+      {
+        "subject": "DDoS botnet",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "With the recent and frequent introduction of new Mirai variants, we expect continued DDoS activity from Mirai botnets. ",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The two new Bluetooth vulnerabilities that exist for Android, Linux, MacOS, and iOS enable unauthorized attackers to perform an \u201cunauthenticated pairing",
+    "relation_list": [
+      {
+        "subject": "unauthenticated pairing",
+        "object": "Bluetooth vulnerabilities",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "unauthenticated pairing",
+        "object": "Android",
+        "predicate": "target"
+      },
+      {
+        "subject": "unauthenticated pairing",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "unauthenticated pairing",
+        "object": "MacOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "unauthenticated pairing",
+        "object": "iOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "Android",
+        "object": "Bluetooth vulnerabilities",
+        "predicate": "has"
+      },
+      {
+        "subject": "Linux",
+        "object": "Bluetooth vulnerabilities",
+        "predicate": "has"
+      },
+      {
+        "subject": "MacOS",
+        "object": "Bluetooth vulnerabilities",
+        "predicate": "has"
+      },
+      {
+        "subject": "iOS",
+        "object": "Bluetooth vulnerabilities",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "unauthenticated pairing",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Bluetooth vulnerabilities",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Android",
+        "type": "OS"
+      },
+      {
+        "text": "Linux",
+        "type": "OS"
+      },
+      {
+        "text": "MacOS",
+        "type": "OS"
+      },
+      {
+        "text": "iOS",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "While a fix for the Linux vulnerability existed since 2020 (CVE-2020-0556), it was surprisingly left disabled by default. ",
+    "relation_list": [
+      {
+        "subject": "Linux",
+        "object": "CVE-2020-0556",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Linux",
+        "type": "OS"
+      },
+      {
+        "text": "CVE-2020-0556",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Group-IB, a leading cybersecurity company, has uncovered a sophisticated new Linux RAT (Remote Access Trojan) they have dubbed \u201cKrasue.\u201d ",
+    "relation_list": [
+      {
+        "subject": "Krasue",
+        "object": "Linux",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Krasue",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "Cybercriminals Exploit ActiveMQ Flaw to Spread GoTitan Botnet, PrCtrl Rat",
+    "relation_list": [
+      {
+        "subject": "GoTitan Botnet, PrCtrl Rat",
+        "object": "ActiveMQ",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "GoTitan Botnet, PrCtrl Rat",
+        "type": "Botnet"
+      },
+      {
+        "text": "ActiveMQ",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Kinsing malware specializes in supporting cryptojacking operations and can exploit newly discovered security vulnerabilities.",
+    "relation_list": [
+      {
+        "subject": "Kinsing",
+        "object": "cryptojacking operations",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Kinsing",
+        "type": "Malware"
+      },
+      {
+        "text": "Blacryptojacking operationsckCat",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "On the other hand, Ddostff botnet has been widely employed in Distributed Denial of Service (DDoS) attacks since 2016.",
+    "relation_list": [
+      {
+        "subject": "Ddostff",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Ddostff",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "GoTitan supports ten different methods of launching DDoS attacks.",
+    "relation_list": [
+      {
+        "subject": "GoTitan",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "GoTitan",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability has been named \u201cReptar\u201d by Google and affects numerous Intel CPUs, including those utilized in cloud computing environments.",
+    "relation_list": [
+      {
+        "subject": "Intel CPUs",
+        "object": "Reptar",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Intel CPUs",
+        "type": "Device"
+      },
+      {
+        "text": "Reptar",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Ddostf Botnet Resurfaces in DDoS Attacks Against MySQL and Docker Hosts",
+    "relation_list": [
+      {
+        "subject": "Ddostf",
+        "object": "MySQL and Docker Hosts",
+        "predicate": "target"
+      },
+      {
+        "subject": "Ddostf",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "DDoS",
+        "object": "MySQL and Docker Hosts",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Ddostf",
+        "type": "Botnet"
+      },
+      {
+        "text": "MySQL and Docker Hosts",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Researchers claim that the Chinese Ddostf botnet is specifically designed for launching DDoS attacks and that the threat actors are operating a DDoS-for-hire service.",
+    "relation_list": [
+      {
+        "subject": "Ddostf",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Ddostf",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "AhnLab Security Emergency Response Center (ASEC) researchers have shared alarming details of a new campaign targeting MySQL servers and Docker hosts with DDoS malware.",
+    "relation_list": [
+      {
+        "subject": "DDoS malware",
+        "object": "MySQL and Docker Hosts",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MySQL and Docker Hosts",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS malware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "AhnLab noted that attacks targeting MySQL servers on Windows systems have increased sharply, and vulnerable servers are infected with the Chinese botnet Ddostf, discovered in 2016.",
+    "relation_list": [
+      {
+        "subject": "Ddostf",
+        "object": "MySQL servers on Windows systems",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Ddostf",
+        "type": "Botnet"
+      },
+      {
+        "text": "MySQL servers on Windows systems",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "After compromising the servers, threat actors install the Ddostf DDoS botnet to launch distributed denial-of-service (DDoS) attacks against other servers.",
+    "relation_list": [
+      {
+        "subject": "Ddostf DDoS botnet",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Ddostf DDoS botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Based on data from AhnLab\u2019s Smart Defense (ASD) logs, most malware targeting vulnerable MySQL servers were Gh0st RAT variants, but instances of AsyncRAT were also observed and recently.",
+    "relation_list": [
+      {
+        "subject": "Gh0st RAT variants",
+        "object": "MySQL servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "AsyncRAT",
+        "object": "MySQL servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Gh0st RAT variants",
+        "type": "Malware"
+      },
+      {
+        "text": "AsyncRAT",
+        "type": "Malware"
+      },
+      {
+        "text": "MySQL servers",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "The IPStorm botnet targeted Windows, Linux, Mac, and Android devices and claimed victims in Asia, Europe, North America, and South America.",
+    "relation_list": [
+      {
+        "subject": "IPStorm",
+        "object": "Windows, Linux, Mac, and Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "IPStorm",
+        "type": "Botnet"
+      },
+      {
+        "text": "Windows, Linux, Mac, and Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "In his guilty plea, Makinin admitted that he and his accomplices ran IPStorm from 2015 to 2019 and successfully compromised over 40,000 devices using the IPStorm malware and 23,000 \u201chighly anonymous\u201d proxies.",
+    "relation_list": [
+      {
+        "subject": "Makinin",
+        "object": "IPStorm",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Makinin",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "IPStorm",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The IPStorm malware allowed Makinin hijack the devices and use them as a proxy.",
+    "relation_list": [
+      {
+        "subject": "Makinin",
+        "object": "IPStorm",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Makinin",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "IPStorm",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Makinin is the first to be charged in connection with IPStorm. ",
+    "relation_list": [
+      {
+        "subject": "Makinin",
+        "object": "IPStorm",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Makinin",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "IPStorm",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Hackread.com had reported that the vulnerability, tracked as CVE-2023-20198, was discovered in the Cisco IOS XE software\u2019s Web UI feature.",
+    "relation_list": [
+      {
+        "subject": "Cisco IOS XE",
+        "object": "CVE-2023-20198",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Cisco IOS XE",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2023-20198",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Cisco warned customers about the vulnerability affecting Cisco RV320 and RV325 routers, explaining that it allows a remote unauthorized attacker to create an account on the compromised system with privilege level 15 access and go on to gain full control of the device. ",
+    "relation_list": [
+      {
+        "subject": "remote unauthorized attacker",
+        "object": "Cisco RV320 and RV325 routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Cisco RV320 and RV325 routers",
+        "type": "Device"
+      },
+      {
+        "text": "remote unauthorized attacker",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "Zero-Day iOS Exploit Chain Infects Devices with Predator Spyware",
+    "relation_list": [
+      {
+        "subject": "Predator",
+        "object": "Zero-Day iOS",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Predator",
+        "type": "Malware"
+      },
+      {
+        "text": "Zero-Day iOS",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Mirai Malware Hits Zyxel Devices After Command Injection Bug",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "Zyxel Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Malware"
+      },
+      {
+        "text": "Zyxel Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "A variant of the Mirai botnet is targeting Zyxel Firewalls after exploiting a newly patched operating system command injection vulnerability.",
+    "relation_list": [
+      {
+        "subject": "A variant of the Mirai botnet",
+        "object": "Zyxel Firewalls",
+        "predicate": "target"
+      },
+      {
+        "subject": "A variant of the Mirai botnet",
+        "object": "patched operating system command injection vulnerability",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "A variant of the Mirai botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "Zyxel Firewalls",
+        "type": "Software"
+      },
+      {
+        "text": "patched operating system command injection vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "A variant of the Mirai botnet has successfully hacked various Zyxel Firewalls after exploiting a newly patched operating system command injection vulnerability (CVE-2023-28771). ",
+    "relation_list": [
+      {
+        "subject": "A variant of the Mirai botnet",
+        "object": "Zyxel Firewalls",
+        "predicate": "target"
+      },
+      {
+        "subject": "A variant of the Mirai botnet",
+        "object": "CVE-2023-28771",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "A variant of the Mirai botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "Zyxel Firewalls",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2023-28771",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "According to Palo Alto Networks\u2019 Unit 42 researchers, who analyzed the downloaded samples, the Mirai botnet sample hacking Zyxel firewalls is called IZ1H9, which was discovered in August 2018. ",
+    "relation_list": [
+      {
+        "subject": "IZ1H9",
+        "object": "Zyxel firewalls",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "IZ1H9",
+        "type": "Botnet"
+      },
+      {
+        "text": "Zyxel firewalls",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Researcher Kevin Beaumont informed about the mass exploitation of this vulnerability by the Mirai botnet variant on Thursday, impacting several SMB appliances.",
+    "relation_list": [
+      {
+        "subject": "Mirai botnet variant",
+        "object": "SMB appliances",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai botnet variant",
+        "type": "Botnet"
+      },
+      {
+        "text": "SMB appliances",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Both buffer overflow flaws can let an adversary launch a DoS attack or execute arbitrary code on the device.",
+    "relation_list": [
+      {
+        "subject": "DoS",
+        "object": "buffer overflow flaws",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "execute arbitrary code",
+        "object": "buffer overflow flaws",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "execute arbitrary code",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "buffer overflow flaws",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The Mirai malware targeting Zyxel firewalls is distributed as a Unix and Linux executable in linkable format (.elf).",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "Zyxel firewalls",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Malware"
+      },
+      {
+        "text": "Zyxel firewalls",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Mirai Variant V3G4 Exploiting IoT Devices for DDoS Attacks",
+    "relation_list": [
+      {
+        "subject": "Mirai Variant V3G4",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai Variant V3G4",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "The IT security researchers at Palo Alto Networks\u2019 Unit 42 have identified a new variant of the infamous Mirai malware, which was responsible for several large-scale DDoS attacks (Distributed Denial of Service attacks) on Dyn DNS in October 2016.",
+    "relation_list": [
+      {
+        "subject": "new variant of the infamous Mirai malware",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "new variant of the infamous Mirai malware",
+        "type": "Malware"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "In the campaign tracked by Unit 42, one of the prime targets of the V3G4 malware has been exposed IP cameras. ",
+    "relation_list": [
+      {
+        "subject": "V3G4",
+        "object": "exposed IP cameras",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "V3G4",
+        "type": "Malware"
+      },
+      {
+        "text": "exposed IP cameras",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability (tracked as CVE-2023-23529) was found in the WebKit framework of the browser.",
+    "relation_list": [
+      {
+        "subject": "WebKit framework of the browser",
+        "object": "CVE-2023-23529",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "WebKit framework of the browser",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2023-23529",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "New DDoS Malware \u2018Chaos\u2019 Hits Linux and Windows Devices",
+    "relation_list": [
+      {
+        "subject": "Chaos",
+        "object": "Linux and Windows Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Chaos",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux and Windows Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Dubbed Chaos by researchers, this malware has infected numerous Windows and Linux devices, including enterprise servers, FreeBSD boxes, and small office routers.",
+    "relation_list": [
+      {
+        "subject": "Chaos",
+        "object": "Linux and Windows Devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "Chaos",
+        "object": "enterprise servers",
+        "predicate": "target"
+      },
+      {
+        "subject": "Chaos",
+        "object": "FreeBSD boxes",
+        "predicate": "target"
+      },
+      {
+        "subject": "Chaos",
+        "object": "small office routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Chaos",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux and Windows Devices",
+        "type": "Device"
+      },
+      {
+        "text": "enterprise servers",
+        "type": "Device"
+      },
+      {
+        "text": "FreeBSD boxes",
+        "type": "Device"
+      },
+      {
+        "text": "small office routers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Black Lotus Labs researchers wrote that Chaos is a Go-based, multifunctional malware that targets devices based on multiple platforms such as Windows and Linux.",
+    "relation_list": [
+      {
+        "subject": "Chaos",
+        "object": "devices based on multiple platforms such as Windows and Linux",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Chaos",
+        "type": "Malware"
+      },
+      {
+        "text": "devices based on multiple platforms such as Windows and Linux",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Moreover, Chaos malware is different from ransomware-delivering botnets such as Emotet, which use spamming to be distributed because it spreads through brute force, CVEs, and stolen SSH keys.",
+    "relation_list": [
+      {
+        "subject": "Chaos",
+        "object": "brute force",
+        "predicate": "use"
+      },
+      {
+        "subject": "Chaos",
+        "object": "CVEs",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "Chaos",
+        "object": "stolen SSH keys",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Chaos",
+        "type": "Malware"
+      },
+      {
+        "text": "Emotet",
+        "type": "Botnet"
+      },
+      {
+        "text": "brute force",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "CVEs",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "stolen SSH keys",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The researchers further observed that Chaos\u2019s code base and functional overlapping make it similar to Kaiji IoT malware known for compromising Linux devices for DDoS attacks.",
+    "relation_list": [
+      {
+        "subject": "Kaiji IoT malware",
+        "object": "Linux devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "Kaiji IoT malware",
+        "object": "DDoS",
+        "predicate": "use"
+      },
+      {
+        "subject": "DDoS",
+        "object": "Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Kaiji IoT malware",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux devices",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "In some samples, researchers noticed that attackers exploited the CVE-2017-17215 and CVE-2022-30525 vulnerabilities, which impacted Zyxel and Huawei devices.",
+    "relation_list": [
+      {
+        "subject": "Zyxel and Huawei devices",
+        "object": "CVE-2017-17215",
+        "predicate": "has"
+      },
+      {
+        "subject": "Zyxel and Huawei devices",
+        "object": "CVE-2022-30525",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Zyxel and Huawei devices",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2017-17215",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-30525",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The Flexlan FXA3000 and FXA2000 series LAN devices made by the Japan-based firm contain two critical vulnerabilities tracked as CVE\u20132022\u201336158 and CVE\u20132022\u201336159.",
+    "relation_list": [
+      {
+        "subject": "Flexlan FXA3000 and FXA2000 series LAN devices",
+        "object": "CVE\u20132022\u201336158",
+        "predicate": "has"
+      },
+      {
+        "subject": "Flexlan FXA3000 and FXA2000 series LAN devices",
+        "object": "CVE\u20132022\u201336159",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Flexlan FXA3000 and FXA2000 series LAN devices",
+        "type": "Device"
+      },
+      {
+        "text": "CVE\u20132022\u201336158",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE\u20132022\u201336159",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Reportedly, the Flexlan FXA3000 and FXA2000 series LAN devices made by the Japan-based firm contain two critical vulnerabilities tracked as CVE\u20132022\u201336158 and CVE\u20132022\u201336159.",
+    "relation_list": [
+      {
+        "subject": "Flexlan FXA3000 and FXA2000 series LAN devices",
+        "object": "CVE\u20132022\u201336158",
+        "predicate": "has"
+      },
+      {
+        "subject": "Flexlan FXA3000 and FXA2000 series LAN devices",
+        "object": "CVE\u20132022\u201336159",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Flexlan FXA3000 and FXA2000 series LAN devices",
+        "type": "Device"
+      },
+      {
+        "text": "CVE\u20132022\u201336158",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE\u20132022\u201336159",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Researchers discovered the first vulnerability (CVE\u20132022\u201336158) while performing the firmware\u2019s reverse engineering. ",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE\u20132022\u201336158",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Therefore, an attacker armed with the root hard-coded password can conveniently access all FXA2000 and FXA3000 series devices.",
+    "relation_list": [
+      {
+        "subject": "attacker armed with the root hard-coded password",
+        "object": "FXA2000 and FXA3000 series devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "attacker armed with the root hard-coded password",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "FXA2000 and FXA3000 series devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Spyware developer firm Cytrox is under Google\u2019s radar for developing exploits against five 0-day flaws in Android and Chrome.",
+    "relation_list": [
+      {
+        "subject": "Android",
+        "object": "0-day",
+        "predicate": "has"
+      },
+      {
+        "subject": "Chrome",
+        "object": "0-day",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Android",
+        "type": "OS"
+      },
+      {
+        "text": "Chrome",
+        "type": "OS"
+      },
+      {
+        "text": "0-day",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "According to the details shared by TAG, threat actors are using the infamous Predator spyware in three different campaigns.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Predator",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The Predator spyware is similar to NSO Group\u2019s Pegasus spyware, allowing threat actors to penetrate Android and iOS devices.",
+    "relation_list": [
+      {
+        "subject": "Predator",
+        "object": "Android and iOS devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "Pegasus",
+        "object": "Android and iOS devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Predator",
+        "type": "Malware"
+      },
+      {
+        "text": "Pegasus",
+        "type": "Malware"
+      },
+      {
+        "text": "Android and iOS devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "New DazzleSpy malware infects macOS devices through hacked websites.",
+    "relation_list": [
+      {
+        "subject": "DazzleSpy",
+        "object": "macOS devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "macOS devices",
+        "type": "Device"
+      },
+      {
+        "text": "DazzleSpy",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Protesters in Hong Kong were tricked into visiting a compromised pro-democracy radio station website that delivered DazzleSpy malware through a Safari exploit.",
+    "relation_list": [
+      {
+        "subject": "DazzleSpy",
+        "object": "Safari exploit",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DazzleSpy",
+        "type": "Malware"
+      },
+      {
+        "text": "Safari exploit",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "According to researchers, DazzleSpy is basically a backdoor that helps carry out surveillance on a compromised Mac device.",
+    "relation_list": [
+      {
+        "subject": "DazzleSpy",
+        "object": "Mac device",
+        "predicate": "target"
+      },
+      {
+        "subject": "DazzleSpy",
+        "object": "surveillance",
+        "predicate": "use"
+      },
+      {
+        "subject": "surveillance",
+        "object": "Mac device",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DazzleSpy",
+        "type": "Malware"
+      },
+      {
+        "text": "Mac device",
+        "type": "Device"
+      },
+      {
+        "text": "surveillance",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "As mentioned above, in this campaign, attackers are exploiting a WebKit exploit to infect Mac users. ",
+    "relation_list": [
+      {
+        "subject": "Mac",
+        "object": "WebKit exploit",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mac",
+        "type": "Device"
+      },
+      {
+        "text": "WebKit exploit",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "It also observers whether it can take advantage of CVE-2019-8526, and if the device version is below 10.14.4, it steals keychain information.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE-2019-8526",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "As per research from Mordor Intelligence, Intel currently holds the fourth spot in the IoT chip market, and car manufacturers use Intel Atom E3900 series IoT processors, which reportedly contain the vulnerability (tracked as CVE-2021-0146). ",
+    "relation_list": [
+      {
+        "subject": "Intel Atom E3900 series IoT processors",
+        "object": "CVE-2021-0146",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Intel Atom E3900 series IoT processors",
+        "type": "Device"
+      },
+      {
+        "text": "CVE-2021-0146",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Critical Intel AMT Flaw Lets Attackers Hack Laptops in Mere Seconds.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Intel AMT Flaw",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Ongoing \u2018FreakOut\u2019 malware attack turns Linux devices into IRC botnet",
+    "relation_list": [
+      {
+        "subject": "FreakOut",
+        "object": "Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Linux devices",
+        "type": "Device"
+      },
+      {
+        "text": "FreakOut",
+        "type": "Malware"
+      },
+      {
+        "text": "IRC botnet",
+        "type": "Botnet"
+      }
+    ]
+  },
+  {
+    "text": "According to Checkpoint, the \u201cFreakOut\u201d malware attack is exploiting \u201cnewest vulnerabilities.\u201d",
+    "relation_list": [
+      {
+        "subject": "FreakOut",
+        "object": "newest vulnerabilities",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "newest vulnerabilities",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "FreakOut",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Done by a threat actor named \u201cfreak;\u201d the botnet in question would allow attackers to perform malicious tasks such as brute-forcing attacks, network sniffing, killing processes, crypto-mining, and DDoS attacks.",
+    "relation_list": [
+      {
+        "subject": "freak",
+        "object": "brute-forcing",
+        "predicate": "target"
+      },
+      {
+        "subject": "freak",
+        "object": "crypto-mining",
+        "predicate": "target"
+      },
+      {
+        "subject": "freak",
+        "object": "network sniffing",
+        "predicate": "target"
+      },
+      {
+        "subject": "freak",
+        "object": "killing processes",
+        "predicate": "target"
+      },
+      {
+        "subject": "freak",
+        "object": "DDoS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "freak",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "brute-forcing",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "network sniffing",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "killing processes",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "crypto-mining",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Delving into the details, the campaign is not aimed at the masses but chooses a targeted approach in which it only attacks systems running the TerraMaster operating system ZEND framework or Liferay Portal.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "TerraMaster operating system ZEND framework or Liferay Portal",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "They can also carry out DDoS attacks and ask for ransom as seen previously where DDoS attacks were being launched with Monero ransom notes.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "LodaRAT Windows malware now hunting Android devices",
+    "relation_list": [
+      {
+        "subject": "LodaRAT Windows malware",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "LodaRAT Windows malware",
+        "type": "Malware"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Dubbed LodaRAT, the trojan was equipped with credential-stealing capabilities earlier, but now it is eyeing Android users.",
+    "relation_list": [
+      {
+        "subject": "LodaRAT",
+        "object": "Android",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "LodaRAT",
+        "type": "Malware"
+      },
+      {
+        "text": "Android",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Proofpoint first discovered LodaRAT in 2017. LodaRAT is an AutoIt malware delivered through phishing emails.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "LodaRAT",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Researchers believe that the malware author could be based in Morocco and has used a wide range of social engineering tricks from emails embedded with infected RTF documents that exploit the CVE-2017-11882 vulnerability in MS Office to typo squatted domains.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE-2017-11882",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "MS Office",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Among 75 WiFi devices tested; all were found to be vulnerable to one of the FragAttacks.",
+    "relation_list": [
+      {
+        "subject": "FragAttacks",
+        "object": "WiFi devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "WiFi devices",
+        "type": "Device"
+      },
+      {
+        "text": "FragAttacks",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "A Belgian cybersecurity researcher Mathy Vanhoef has revealed in his latest blog post that newly discovered vulnerabilities dubbed FragAttacks (fragmentation and aggregation attacks) are pervasive and put at risk all devices with WiFi.",
+    "relation_list": [
+      {
+        "subject": "Linux devices",
+        "object": "FragAttacks",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Linux devices",
+        "type": "Device"
+      },
+      {
+        "text": "FragAttacks",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "Old crypto malware makes come back, hits Windows, Linux devices",
+    "relation_list": [
+      {
+        "subject": "crypto malware",
+        "object": "Windows, Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Windows, Linux devices",
+        "type": "Device"
+      },
+      {
+        "text": "crypto malware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "LemonDuck was first discovered in China in 2019 as a cryptocurrency botnet that used affected systems for Monero mining.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "LemonDuck",
+        "type": "Botnet"
+      },
+      {
+        "text": "Monero mining",
+        "type": "Campaign"
+      }
+    ]
+  },
+  {
+    "text": "According to a new report from Microsoft 365 Defender Threat Intelligence Team, a revamped version of LemonDuck crypto-mining malware is now targeting Windows and Linux devices.",
+    "relation_list": [
+      {
+        "subject": "LemonDuck crypto-mining malware",
+        "object": "Windows and Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Windows and Linux devices",
+        "type": "Device"
+      },
+      {
+        "text": "LemonDuck crypto-mining malware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "ElectroRat crypto-stealing malware hits MacOS, Windows, Linux devices",
+    "relation_list": [
+      {
+        "subject": "ElectroRat crypto-stealing malware",
+        "object": "MacOS, Windows, Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MacOS, Windows, Linux devices",
+        "type": "Device"
+      },
+      {
+        "text": "ElectroRat crypto-stealing malware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability would allow threat actors to compromise a targeted ThroughTek IoT device and watch the real-time video feed, listen to audio, and compromise credentials.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "ThroughTek IoT device",
+        "type": "Device"
+      },
+      {
+        "text": "watch the real-time video feed",
+        "type": "Campaign"
+      },
+      {
+        "text": "listen to audio",
+        "type": "Campaign"
+      },
+      {
+        "text": "compromise credentials",
+        "type": "Campaign"
+      }
+    ]
+  },
+  {
+    "text": "The cybersecurity researchers at FireEye have shared details of a critical IoT supply chain vulnerability that might be exposing millions of ThroughTek internet-connected cameras to espionage.",
+    "relation_list": [
+      {
+        "subject": "ThroughTek internet-connected cameras",
+        "object": "IoT supply chain vulnerability",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ThroughTek internet-connected cameras",
+        "type": "Device"
+      },
+      {
+        "text": "IoT supply chain vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The flaw was discovered in ThroughTek\u2019s software core component of the Kalay cloud platform used by OEMs to manufacture IP cameras, baby/pet monitoring cameras, battery devices, and robotic devices.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "IP cameras",
+        "type": "Device"
+      },
+      {
+        "text": "baby/pet monitoring cameras",
+        "type": "Device"
+      },
+      {
+        "text": "battery devices",
+        "type": "Device"
+      },
+      {
+        "text": "robotic devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The vulnerability (CVE-2021-28372) is present in the company\u2019s P2P SDK, which is a function that allows a client on a desktop or mobile app to access the camera\u2019s audio or video streams via the internet.",
+    "relation_list": [
+      {
+        "subject": "P2P SDK",
+        "object": "CVE-2021-28372",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "P2P SDK",
+        "type": "Software"
+      },
+      {
+        "text": "CVE-2021-28372",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "New Xamalicious Backdoor Infects 25 Android Apps, Affects 327K Devices",
+    "relation_list": [
+      {
+        "subject": "Xamalicious Backdoor",
+        "object": "Android Apps",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Xamalicious Backdoor",
+        "type": "Malware"
+      },
+      {
+        "text": "Android Apps",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Despite Google\u2019s proactive removal of these apps, the threat persists through third-party markets, compromising over 327,000 devices globally.",
+    "relation_list": [],
+    "entity_list": []
+  },
+  {
+    "text": "The Xamalicious Backdoor can gain complete control over a targeted Android device without detection by the device\u2019s security solution.",
+    "relation_list": [
+      {
+        "subject": "Xamalicious Backdoor",
+        "object": "Android device",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Xamalicious Backdoor",
+        "type": "Malware"
+      },
+      {
+        "text": "Android device",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "McAfee\u2019s Mobile Research Team has uncovered a widespread Android backdoor threat, dubbed Xamalicious, showing sophisticated tactics to compromise user devices.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Xamalicious",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "What sets Xamalicious backdoor apart is its direct connection to the notorious ad-fraud app, \u201cCash Magnet.\u201d",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Cash Magnet",
+        "type": "Malware"
+      },
+      {
+        "text": "Xamalicious backdoor",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "According to the McAfee Mobile Research Team\u2019s blog post, approximately 25 malicious apps carrying Xamalicious backdoor have been identified, some of which infiltrated Google Play since mid-2020.",
+    "relation_list": [
+      {
+        "subject": "Xamalicious backdoor",
+        "object": "Google Play",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Xamalicious backdoor",
+        "type": "Malware"
+      },
+      {
+        "text": "Google Play",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "If you are using Android devices, it is crucial to protect them from the Xamalicious malware and other emerging Android threats. ",
+    "relation_list": [
+      {
+        "subject": "Xamalicious",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Xamalicious",
+        "type": "Malware"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Cisco Web UI Vulnerability Exploited Massly, Impacting Over 40K Devices",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Cisco Web UI Vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "It is tracked as CVE-2023-20198 and has been used to exploit tens of thousands of devices.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE-2023-20198",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "New Malware Turns Windows and macOS Devices into Proxy Nodes",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Windows and macOS Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "To achieve this covert process, the malware creators employ Inno Setup, a widely-used Windows installer.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Inno Setup",
+        "type": "Tool"
+      }
+    ]
+  },
+  {
+    "text": "AdLoad, a notorious adware strain masquerading as legitimate applications, has been capitalizing on unsuspecting users to navigate them towards malicious websites, ultimately profiting from these schemes.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "AdLoad",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Iranian Stalkerware \u2018Spyhide\u2019 Steals Data from 60,000 Android Devices",
+    "relation_list": [
+      {
+        "subject": "Spyhide",
+        "object": "Android Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Android Devices",
+        "type": "Device"
+      },
+      {
+        "text": "Spyhide",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "So far, Spyhide app collected 3.3 million texts and 1.2 million call logs from compromised Android devices.",
+    "relation_list": [
+      {
+        "subject": "Spyhide",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Android devices",
+        "type": "Device"
+      },
+      {
+        "text": "Spyhide",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Cybersecurity researcher Maia Arson Crimew, who identified the shady data collection of the Spyhide app, noted that the compromised Android devices span across every continent, with Europe, Brazil, and the US being the most heavily targeted regions.",
+    "relation_list": [
+      {
+        "subject": "Spyhide app",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Android devices",
+        "type": "Device"
+      },
+      {
+        "text": "Spyhide app",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Check Point Software Technologies\u2019 recent research highlights a concerning trend: a circulating fake Telegram messenger app that infects Android devices with Triada malware upon installation.",
+    "relation_list": [
+      {
+        "subject": "fake Telegram messenger app",
+        "object": "Android devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "Triada malware",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "fake Telegram messenger app",
+        "type": "Malware"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      },
+      {
+        "text": "Triada malware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "It is important to highlight that earlier research on Triada has already demonstrated its persistence, with Google confirming the presence of this malware in inexpensive Android phones.",
+    "relation_list": [
+      {
+        "subject": "Triada",
+        "object": "inexpensive Android phones",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "inexpensive Android phones",
+        "type": "Device"
+      },
+      {
+        "text": "Triada",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "In a report shared with Hackread.com, Checkpoint researchers outlined the various operations that Triada malware can carry out. ",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Triada",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Newly Surfaced ThirdEye Infostealer Targeting Windows Devices",
+    "relation_list": [
+      {
+        "subject": "ThirdEye Infostealer",
+        "object": "Windows Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Windows Devices",
+        "type": "Device"
+      },
+      {
+        "text": "ThirdEye Infostealer",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Beware of MacStealer: A New Malware Targeting macOS Catalina Devices",
+    "relation_list": [
+      {
+        "subject": "Beware of MacStealer",
+        "object": "macOS Catalina Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "macOS Catalina Devices",
+        "type": "Device"
+      },
+      {
+        "text": "Beware of MacStealer",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The new MacStealer malware is being advertised on a notorious Russian hacker and cybercrime forum.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "MacStealer malware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "If your device runs on macOS Catalina, be cautious because a new malware has surfaced dubbed MacStealer, which mainly targets Catalina-running Mac devices and infects both Apple Silicon and Intel chips.",
+    "relation_list": [
+      {
+        "subject": "MacStealer",
+        "object": "Catalina-running Mac devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "MacStealer",
+        "object": "Apple Silicon and Intel chips",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MacStealer",
+        "type": "Malware"
+      },
+      {
+        "text": "Catalina-running Mac devices",
+        "type": "Device"
+      },
+      {
+        "text": "Apple Silicon and Intel chips",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Windows, Linux and macOS Users Targeted by Chinese Iron Tiger APT Group",
+    "relation_list": [
+      {
+        "subject": "Chinese Iron Tiger APT Group",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "Chinese Iron Tiger APT Group",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "Chinese Iron Tiger APT Group",
+        "object": "macOS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Chinese Iron Tiger APT Group",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Windows",
+        "type": "Device"
+      },
+      {
+        "text": "Linux",
+        "type": "Device"
+      },
+      {
+        "text": "macOS",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Chinese Espionage Group called Iron Tiger (aka LuckyMouse) is targeting Windows, Linux, and macOS Users with trojanized MiMi Chat app installers.",
+    "relation_list": [
+      {
+        "subject": "Iron Tiger (aka LuckyMouse)",
+        "object": "trojanized MiMi Chat app installers",
+        "predicate": "use"
+      },
+      {
+        "subject": "Iron Tiger (aka LuckyMouse)",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "Iron Tiger (aka LuckyMouse)",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "Iron Tiger (aka LuckyMouse)",
+        "object": "macOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "trojanized MiMi Chat app installers",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "trojanized MiMi Chat app installers",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "trojanized MiMi Chat app installers",
+        "object": "macOS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Iron Tiger (aka LuckyMouse)",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "trojanized MiMi Chat app installers",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows",
+        "type": "Device"
+      },
+      {
+        "text": "Linux",
+        "type": "Device"
+      },
+      {
+        "text": "macOS",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The China-linked cyberespionage group is targeting Windows, Linux, macOS, and iOS users through trojanized versions of MiMi chat app installers. ",
+    "relation_list": [
+      {
+        "subject": "China-linked cyberespionage group",
+        "object": "trojanized MiMi Chat app installers",
+        "predicate": "use"
+      },
+      {
+        "subject": "China-linked cyberespionage group",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "China-linked cyberespionage group",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "China-linked cyberespionage group",
+        "object": "macOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "trojanized versions of MiMi chat app installers",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "trojanized versions of MiMi chat app installers",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "trojanized versions of MiMi chat app installers",
+        "object": "macOS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "China-linked cyberespionage group",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "trojanized versions of MiMi chat app installers",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows",
+        "type": "Device"
+      },
+      {
+        "text": "Linux",
+        "type": "Device"
+      },
+      {
+        "text": "macOS",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "For instance, in June 2018, Iron Tiger APT was caught using a watering hole attack.",
+    "relation_list": [
+      {
+        "subject": "Iron Tiger APT",
+        "object": "watering hole attack",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Iron Tiger APT",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "watering hole attack",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "In this campaign, Iron Tiger\u2019s modus operandi involves compromising the MiMi Chat app servers to infect unsuspecting users\u2019 devices. ",
+    "relation_list": [
+      {
+        "subject": "Iron Tiger",
+        "object": "MiMi Chat app servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Iron Tiger",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "MiMi Chat app servers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Adrozek malware was identified by Microsoft and since May 2020 over 30,000 users have been infected.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Adrozek",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "In Mozilla Firefox, the Adrozek malware also steals user credentials which are communicated back to the attackers making it more complicated than it seems on the surface with its main ad injection feature.",
+    "relation_list": [
+      {
+        "subject": "Adrozek",
+        "object": "Mozilla Firefox",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mozilla Firefox",
+        "type": "Software"
+      },
+      {
+        "text": "Adrozek",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "Stealing From Wallets to Browsers: Bandit Stealer Hits Windows Devices",
+    "relation_list": [
+      {
+        "subject": "Bandit Stealer",
+        "object": "Windows Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Bandit Stealer",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Watch out for the Bandit Stealer malware that is being distributed through phishing emails.",
+    "relation_list": [
+      {
+        "subject": "Bandit Stealer",
+        "object": "phishing emails",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Bandit Stealer",
+        "type": "Malware"
+      },
+      {
+        "text": "phishing emails",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "According to Symantec\u2019s report, Witchetty is associated with a Chinese APT group Cicada, aka Stone Panda, and APT10, while its connection with TA410 is also being reported.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "Witchetty",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Stone Panda",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "APT10",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "TA410",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "Mirai botnet exploiting Azure OMIGOD vulnerabilities",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "OMIGOD vulnerabilities",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Botnet"
+      },
+      {
+        "text": "OMIGOD vulnerabilities",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The infamous Mirai botnet lets threat actors use compromised devices to carry out large-scale and crippling DDoS attacks.",
+    "relation_list": [
+      {
+        "subject": "Mirai",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "Mirai botnet resurfaces with MooBot variant to target D-Link devices",
+    "relation_list": [
+      {
+        "subject": "MooBot variant",
+        "object": "D-Link devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MooBot variant",
+        "type": "Botnet"
+      },
+      {
+        "text": "D-Link devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Palo Alto Networks\u2019 Unit 42 researchers have reported the emergence of a new Mirai botnet variant dubbed MooBot.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "MooBot",
+        "type": "Botnet"
+      }
+    ]
+  },
+  {
+    "text": "This variant is looking for unpatched D-Link devices to create its army of DDoS (distributed denial of service) bots. ",
+    "relation_list": [
+      {
+        "subject": "DDoS",
+        "object": "D-Link devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "D-Link devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "For compromising vulnerable D-Link routers, MooBot uses multiple exploits",
+    "relation_list": [
+      {
+        "subject": "MooBot",
+        "object": "D-Link routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MooBot",
+        "type": "Botnet"
+      },
+      {
+        "text": "D-Link routers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Researchers identified that MooBot targeted a flaw in Hikvision cameras and enlisted a large number of devices into its DDoS army.",
+    "relation_list": [
+      {
+        "subject": "MooBot",
+        "object": "Hikvision cameras",
+        "predicate": "target"
+      },
+      {
+        "subject": "MooBot",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MooBot",
+        "type": "Botnet"
+      },
+      {
+        "text": "Hikvision cameras",
+        "type": "Device"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "This time, MooBot\u2019s targets were unpatched D-Link routers, which it compromised using old and new exploits.",
+    "relation_list": [
+      {
+        "subject": "MooBot",
+        "object": "D-Link routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MooBot",
+        "type": "Botnet"
+      },
+      {
+        "text": "D-Link routers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Many are yet to be patched for the last two vulnerabilities (CVE-2022-26258, CVE-2022-28958) discovered in March and May 2022.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE-2022-26258",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "CVE-2022-28958",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "LockBit Ransomware Expands Attack Spectrum to Mac Devices",
+    "relation_list": [
+      {
+        "subject": "LockBit Ransomware",
+        "object": "Mac Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "LockBit Ransomware",
+        "type": "Malware"
+      },
+      {
+        "text": "Mac Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "This would be the first instance of malware targeting Mac devices, as LockBit has previously focused on Linux and Windows devices.",
+    "relation_list": [
+      {
+        "subject": "LockBit",
+        "object": "Mac devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "LockBit",
+        "object": "Linux and Windows devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "LockBit",
+        "type": "Malware"
+      },
+      {
+        "text": "Mac devices",
+        "type": "Device"
+      },
+      {
+        "text": "Linux and Windows devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "LockBit ransomware gang is reportedly developing a new version of malware that can encrypt files on Apple macOS, as revealed by MalwareHunterTeam.",
+    "relation_list": [
+      {
+        "subject": "LockBit ransomware gang",
+        "object": "Apple macOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "LockBit ransomware",
+        "object": "Apple macOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "LockBit ransomware gang",
+        "object": "LockBit ransomware",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "LockBit ransomware gang",
+        "type": "ThreatActor"
+      },
+      {
+        "text": "Apple macOS",
+        "type": "Device"
+      },
+      {
+        "text": "LockBit ransomware",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "The ransomware group is known for its RaaS (ransomware-as-a-service) operation, lending ransomware to cybercriminals for a fee.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "RaaS",
+        "type": "Malware"
+      }
+    ]
+  },
+  {
+    "text": "EarSpy Attack Can Use Motion Sensors Data to Pry on Android Devices",
+    "relation_list": [
+      {
+        "subject": "EarSpy Attack",
+        "object": "Android Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "EarSpy Attack",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Android Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "An EarSpy attack is a proof of concept of a new type of attack on Android devices that exposes users to eavesdropping.",
+    "relation_list": [
+      {
+        "subject": "EarSpy attack",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "EarSpy attack",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Dubbing this side-channel attack EarSpy, researchers noted that motion sensors could be used for registering ear speaker reverberations so that the attacker can determine caller identity and gender and listen to their private conversations.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "EarSpy",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "New TrollStore Tool Permanently Installs Apps on Non-Jailbroken iOS Devices",
+    "relation_list": [
+      {
+        "subject": "Non-Jailbroken iOS Devices",
+        "object": "New TrollStore Tool",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Non-Jailbroken iOS Devices",
+        "type": "Device"
+      },
+      {
+        "text": "New TrollStore Tool",
+        "type": "Software"
+      }
+    ]
+  },
+  {
+    "text": "Moreover, most common repackaging detection solutions wouldn\u2019t detect the issue because of the CVE-2021-30937 vulnerability that allows an adversary to sign the app with an arbitrary BundleID or TeamID.",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "CVE-2021-30937",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The proposal documents were leaked on a Russian hacking forum showing Intellexa is offering remote data extraction from Android and iOS devices in exchange for $8 million.",
+    "relation_list": [
+      {
+        "subject": "Intellexa",
+        "object": "Android and iOS devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Intellexa",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Android and iOS devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "So far, Apple has released three security updates since the mobile operating system release, so presumably, the iPhone maker has patched multiple 0-day vulnerabilities possibly exploited by Intellexa.",
+    "relation_list": [
+      {
+        "subject": "Intellexa",
+        "object": "0-day",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "0-day",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Intellexa",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "QBot Malware Exploiting Windows Calculator to Compromise Devices",
+    "relation_list": [
+      {
+        "subject": "QBot",
+        "object": "Windows Calculator",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QBot",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows Calculator",
+        "type": "Tool"
+      }
+    ]
+  },
+  {
+    "text": "According to researcher \u201cProxyLife\u201d on Twitter, QBot malware, aka QakBot, has been exploiting the Windows 7 Calculator app since at least 11 July 2022.",
+    "relation_list": [
+      {
+        "subject": "QBot",
+        "object": "Windows 7 Calculator app",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QBot",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows 7 Calculator app",
+        "type": "Tool"
+      }
+    ]
+  },
+  {
+    "text": "QBot malware (aka QakBot) is targeting devices using Windows OS in a rather unconventional manner.",
+    "relation_list": [
+      {
+        "subject": "QakBot",
+        "object": "Windows OS",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "QakBot",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows OS",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "Multi-platform SysJoker backdoor targeting Windows, macOS & Linux Devices",
+    "relation_list": [
+      {
+        "subject": "SysJoker backdoor",
+        "object": "Windows, macOS & Linux Devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "SysJoker backdoor",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows, macOS & Linux Devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "The IT security researchers at Israel-based cybersecurity firm Intezer have identified a novel multi-platform backdoor malware, SysJoker, that\u2019s targeting all mainstream operating systems, including Windows, macOS, and Linux. ",
+    "relation_list": [
+      {
+        "subject": "SysJoker",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "SysJoker",
+        "object": "macOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "SysJoker",
+        "object": "Linux",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "SysJoker",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows",
+        "type": "OS"
+      },
+      {
+        "text": "macOS",
+        "type": "OS"
+      },
+      {
+        "text": "Linux",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "Intezer claims that the first evidence of this malware, dubbed SysJoker, was discovered in December 2021 in an attack against a Linux-based web server of an unidentified, well-known educational institution.",
+    "relation_list": [
+      {
+        "subject": "SysJoker",
+        "object": "Linux-based web server",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "SysJoker",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux-based web server",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "CrossRAT keylogging malware targets Linux, macOS & Windows PCs",
+    "relation_list": [
+      {
+        "subject": "CrossRAT keylogging malware",
+        "object": "Linux",
+        "predicate": "target"
+      },
+      {
+        "subject": "CrossRAT keylogging malware",
+        "object": "macOS",
+        "predicate": "target"
+      },
+      {
+        "subject": "CrossRAT keylogging malware",
+        "object": "Windows PCs",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CrossRAT keylogging malware",
+        "type": "Malware"
+      },
+      {
+        "text": "Linux",
+        "type": "OS"
+      },
+      {
+        "text": "macOS",
+        "type": "OS"
+      },
+      {
+        "text": "Windows PCs",
+        "type": "OS"
+      }
+    ]
+  },
+  {
+    "text": "SentinelLabs claims that ModifiedElephant APT has targeted hundreds of individuals and groups. ",
+    "relation_list": [],
+    "entity_list": [
+      {
+        "text": "ModifiedElephant APT",
+        "type": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "text": "Watch out as new PhoneSpy spyware hits Android devices",
+    "relation_list": [
+      {
+        "subject": "PhoneSpy spyware",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "PhoneSpy spyware",
+        "type": "Malware"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "According to researchers, the all new PhoneSpy spyware can infiltrate Android handsets and is spread through malicious applications.",
+    "relation_list": [
+      {
+        "subject": "PhoneSpy spyware",
+        "object": "Android handsets",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "PhoneSpy spyware",
+        "type": "Malware"
+      },
+      {
+        "text": "Android handsets",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "PhoneSpy spyware is currently targeting Android users in South Korea through third-party platforms.",
+    "relation_list": [
+      {
+        "subject": "PhoneSpy spyware",
+        "object": "Android",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "PhoneSpy spyware",
+        "type": "Malware"
+      },
+      {
+        "text": "Android",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Zimperium zLabs researchers have revealed findings on PhoneSpy spyware that can infiltrate Android handsets and is spread through malicious applications.",
+    "relation_list": [
+      {
+        "subject": "PhoneSpy spyware",
+        "object": "Android handsets",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "PhoneSpy spyware",
+        "type": "Malware"
+      },
+      {
+        "text": "Android handsets",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Millions of Android devices abused by UltimaSMS Adware Scam",
+    "relation_list": [
+      {
+        "subject": "UltimaSMS Adware Scam",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "UltimaSMS Adware Scam",
+        "type": "Malware"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "WifiDemon \u2013 iPhone Wifi bug exposed devices to remote attacks",
+    "relation_list": [
+      {
+        "subject": "remote attacks",
+        "object": "WifiDemon",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "remote attacks",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "WifiDemon",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "30 million Dell devices affected by BIOSConnect code execution bugs",
+    "relation_list": [
+      {
+        "subject": "Dell devices",
+        "object": "BIOSConnect code execution bugs",
+        "predicate": "has"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "BIOSConnect code execution bugs",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "Dell devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Watch out as new Matryosh DDoS botnet hits Android devices",
+    "relation_list": [
+      {
+        "subject": "DDoS botnet",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "DDoS botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "New worming botnet Gitpaste-12 infecting IoT devices, Linux servers",
+    "relation_list": [
+      {
+        "subject": "worming botnet",
+        "object": "IoT devices",
+        "predicate": "target"
+      },
+      {
+        "subject": "worming botnet",
+        "object": "Linux servers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "worming botnet",
+        "type": "Botnet"
+      },
+      {
+        "text": "IoT devices",
+        "type": "Device"
+      },
+      {
+        "text": "Linux servers",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Dubbed InterPlanetary Storm; the malware has been active since May 2019 but it targets both macOS and Android-based devices.",
+    "relation_list": [
+      {
+        "subject": "InterPlanetary Storm",
+        "object": "macOS and Android-based devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "InterPlanetary Storm",
+        "type": "Malware"
+      },
+      {
+        "text": "macOS and Android-based devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Monero Mining Malware Infecting Android Smart TVs & Smartphones",
+    "relation_list": [
+      {
+        "subject": "Monero Mining",
+        "object": "Android Smart TVs & Smartphones",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Monero Mining",
+        "type": "Malware"
+      },
+      {
+        "text": "Android Smart TVs & Smartphones",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "BLURtooth vulnerability exposes devices to MITM attack",
+    "relation_list": [
+      {
+        "subject": "MITM attack",
+        "object": "BLURtooth vulnerability",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "MITM attack",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "BLURtooth vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The attacks carried out by exploiting BLURtooth vulnerability are being referred to as the BLUR attacks.",
+    "relation_list": [
+      {
+        "subject": "BLUR attack",
+        "object": "BLURtooth vulnerability",
+        "predicate": "exploit"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "BLUR attack",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "BLURtooth vulnerability",
+        "type": "Vulnerability"
+      }
+    ]
+  },
+  {
+    "text": "The malicious Monero mining campaign is spreading fast through ADB.miner to target Android devices.",
+    "relation_list": [
+      {
+        "subject": "ADB.miner",
+        "object": "Android devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "ADB.miner",
+        "type": "Malware"
+      },
+      {
+        "text": "Monero mining campaign",
+        "type": "Campaign"
+      },
+      {
+        "text": "Android devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "After Windows, Lucifer malware returns to haunt Linux devices",
+    "relation_list": [
+      {
+        "subject": "Lucifer",
+        "object": "Windows",
+        "predicate": "target"
+      },
+      {
+        "subject": "Lucifer",
+        "object": "Linux devices",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Lucifer",
+        "type": "Malware"
+      },
+      {
+        "text": "Windows",
+        "type": "Device"
+      },
+      {
+        "text": "Linux devices",
+        "type": "Device"
+      }
+    ]
+  },
+  {
+    "text": "Moreover, the Unit 42 researchers also discovered new versions of Mirai and Gafgyt (aka BASHLITE) botnets, which were used to launch DDoS attacks.",
+    "relation_list": [
+      {
+        "subject": "Mirai and Gafgyt (aka BASHLITE)",
+        "object": "DDoS",
+        "predicate": "use"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "Mirai and Gafgyt (aka BASHLITE)",
+        "type": "Botnet"
+      },
+      {
+        "text": "DDoS",
+        "type": "AttackPattern"
+      }
+    ]
+  },
+  {
+    "text": "CVE-2021-40847 flaw in Netgear SOHO routers could allow remote code execution.",
+    "relation_list": [
+      {
+        "subject": "Netgear SOHO routers",
+        "object": "CVE-2021-40847",
+        "predicate": "has"
+      },
+      {
+        "subject": "remote code execution",
+        "object": "CVE-2021-40847",
+        "predicate": "exploit"
+      },
+      {
+        "subject": "remote code execution",
+        "object": "Netgear SOHO routers",
+        "predicate": "target"
+      }
+    ],
+    "entity_list": [
+      {
+        "text": "CVE-2021-40847",
+        "type": "Vulnerability"
+      },
+      {
+        "text": "remote code execution",
+        "type": "AttackPattern"
+      },
+      {
+        "text": "Netgear SOHO routers",
+        "type": "Device"
+      }
+    ]
+  }
+]
